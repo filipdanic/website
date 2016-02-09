@@ -19,7 +19,7 @@ ali i više polusatnih prezentacija: sva imaju za cilj konkretniju razmenu znanj
 i iskustava.
 {: .focus}
 
-<!--%= render '/_eventbox.html' %-->
+<%= render '/_eventbox.html' %>
 
 Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
@@ -29,7 +29,13 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 + `18:30` - `18:35` Uvod i pozdrav
 
-TBA
++ `18:35` - `19:15` _Offline web aplikacije_ : [Slobodan Stojanović](https://slobodan.me/) ([CloudHorizon](https://twitter.com/CloudHorizon))
+
++ `19:15` - `19:55` _Rad između developera i dizajnera_ : [Nenad Ivanović](http://www.nenadivanovic.com/) (Behance)
+
++ `19:55` - `20:35` _Kako popraviti robotiće_ : [Igor Spasić](https://github.com/igorspasic) \\
+  Kratka plovidba od brute-force algoritma do optimizacije, u Kotlinu (zašto ne:) ili
+  "kako sam napisao program koji pronalazi rešenje za igricu".
 
 + `20:35` - `21:30` Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)
 

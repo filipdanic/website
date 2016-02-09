@@ -22,7 +22,7 @@ jutarnje kafe. Tri predavanja od 5 minuta, 2 minuta za pitanja; i networking
 dopunjen kiflicama je sjajan način da se započne dan.
 {: .focus}
 
-<!--%= render '/_eventbox.html' %-->
+<%= render '/_eventbox.html' %>
 
 Ideja je da se u neformalnoj atmosferi na brz način predstave ideje i projekti sa ciljem
 prikupljanja komentara, nalaženja istomišljenjika, razmene znanja iz
@@ -41,13 +41,14 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
-+ `8:00`	Kafa + kiflice dobrodošlice, opušteni razgovor sa učesnicima
-+ `8:15`	Pozdrav suncu ;)
-+ `8:20`  Predstavljanja
++ `8:00` Kafa + kiflice dobrodošlice, opušteni razgovor sa učesnicima
++ `8:15` Pozdrav suncu ;)
++ `8:20` Predstavljanja
 
 + COMING SOON!
 
-Shout outs - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
+**Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite...
+15 sekundi je vaše - iskoristite ih!
 
 TBA
 
