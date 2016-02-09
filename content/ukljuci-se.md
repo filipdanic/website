@@ -20,8 +20,8 @@ rad u organizaciji nije nimalo lak. Zahteva žrtvovanje, posvećenost i vreme.
 Vidi koliko možeš sebe da odvojiš. Sve to moraš da imaš posloženo pre nego
 što nam se javiš.
 
-Na kraju, pronađi se u profilima koji nam trebaju. Nešto niže na strani ćeš
-naći opise aktivnosti koje nam trebaju. Odaberi jednu ili više koju možeš
+Na kraju, pronađi se u profilima/rolama koji nam trebaju. Nešto niže na strani ćeš
+naći opise koji nam trebaju. Odaberi jednu ili više koju možeš
 da preuzmeš. I u čemu bi se najviše zabavaljao!
 
 ## Tri koraka do HeapSpace
@@ -31,7 +31,7 @@ dalje. Nećeš biti sam, tu smo da pomognemo; ali ćeš već imati dosta toga
 da sam osmišljavaš i uobličavaš. Cilj ovog koraka je da razumeš
 kako i šta radimo, ali da i sam/a razumeš kako najbolje de deluješ kroz zajednicu.
 
-Drugi korak je opcioni: "praksa". Nakon uključenja, možemo ti pružiti
+Drugi korak nije obavezan: "praksa". Nakon uključenja, možemo ti pružiti
 zvaničnu praksu - ukoliko ti je ona potrebna. Trajanje i format određuješ sam.
 
 "Zvanični" rad u HeapSpace je poslednji korak. Možeš se zaposliti i biti plaćen
@@ -41,14 +41,14 @@ uobičajeno, na neodređeno vreme.
 Kako ćeš, kojom brzinom i na koji način ćeš se priključiti - zavisi isključivo
 od tebe samog.
 
-## Profili
+## Role
 
 ### BizWiz
 
 Biznis lice HeapSpace. Čarobnjak sa informacijama i vešt pregovarač.
 Neko ko može da jasno predstavi naše vrednosti i efikasno usmeri pažnju
-ka ključnim planovima. Vodio bi komunkaciju sa raznim IT firmama i učestvovao
-bi u organizovanju velikih i malih planova.
+ka ključnim planovima. Vodio bi komunkaciju sa IT firmama i učestvovao
+u izradi velikih i malih planova.
 
 ### Community manager
 
@@ -69,3 +69,8 @@ na drugim projektima koje imamo u planu.
 Pravljenje sadržaja. Pisanje tekstova. Uobličavanje programa projekata.
 Neko ko može da spoji apstrakciju sa jednostavnošću. Zadatak, koji traži
 marljivost i posvećenost, a donosi izuzetnu važnost.
+
+### SoundMaister
+
+Produkcija podkasta. Seckanje, lepljenje, sklapanje, džinglovi i odjavne špice.
+Neko ko može da se uhvati u koštac sa zvukom.
