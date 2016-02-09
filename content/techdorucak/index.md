@@ -10,9 +10,10 @@ event_venue: parobrod
 event_meetup: 228607844
 view_map: true
 partner:
-  - uk parobrod
-  - supernatural bar
+  - kiflice
   - nescafe
+  - uk-parobrod
+  - supernatural-bar
 ---
 
 _Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
@@ -44,7 +45,7 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 + `8:15`	Pozdrav suncu ;)
 + `8:20`  Predstavljanja
 
-+ COMING SOON! 
++ COMING SOON!
 
 Shout outs - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
 
