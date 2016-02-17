@@ -4,17 +4,12 @@ subtitle: Najvažnije je kome ostavljamo znanje i svet
 img: /images/hsbck_kids1.jpg
 ---
 
-Važno je da deca i mladi dobiju pravilno i potpunije znanje. Iako
-je danas tehnologija skoro svuda, često se zanemaruje tamo
-gde bi trebalo da je uveliko prisutna: u školama. Cilj nam je
-mlade što pre uputimo u tehnologije, da bi naučili da se iskažu, i da
-im se omogući da nauče veštine od kojih sutra mogu da žive.
+Važno je da deca i mladi dobiju pravilno i potpunije znanje. Iako je danas tehnologija skoro svuda, često se zanemaruje tamo gde bi trebalo da je uveliko prisutna: u školama. Cilj nam je da mlade što pre uputimo u svet tehnologija, kako bi naučili da se kroz njih iskažu i ovladaju veštinama zahvaljući kojima će na vreme početi da grade perspektivnu budućnost.
 {: .focus}
 
-Svi programi na kojima radimo se odmah sprovode u školama i fakultetima do kojih
-možemo da dođemo. Svi programi nastaju u saradnji sa nastavnim osobljem škola i
-fakulteta, čime odmah dobijamo povratnu informaciju o programima, te ih
-dalje usavršavamo i nadgrađujemo. Programi na kojima radimo su:
+Svi programi koje realizujemo sprovode se u školama i na fakultetima koji su otvoreni da učenicima pruže ovakav vid obrazovanja. Ujedno, predstavnici nastavnog osoblja škola i fakulteta koji su prepoznali potencijal programa koje nudimo učestvuju u njihovoj pripremi i razvoju dajući nam povratnu informaciju o njima, na osnovu čega ih konstantno dalje usavršavamo i nadgrađujemo.
+
+Programi na kojima radimo su:
 
 ![](/images/arrow1.png){: .right}
 
@@ -33,7 +28,7 @@ navodi kako možete pomoći.
 + [Uključi se](join){: .button .special .icon .fa-plus}
 {: .actions}
 
-## Slepo Kucanje
+### Slepo Kucanje
 {: .stuff}
 
 + Uzrast: `II-III razred osnovne škole`
@@ -52,8 +47,7 @@ pravilnom rasporedu prstiju (tkzv 'slepo kucanje').
 + [Program](internet-opismenjavanje)
 
 Ovaj program predstavlja mešavinu korišćenja više programa i internet
-aplikacija i servisa. Fokus nije u razumevanju svih opcija programa, već o
-shvatanju suštite šta se sve može uraditi u digitalnom svetu. Značajna pažnja
+aplikacija i servisa. Fokus nije na razumevanju svih opcija programa, već na shvatanju suštinskih potencijala digitalnog sveta. Značajna pažnja
 je posvećena internetu: kako radi, deljenju sadržaja i sigurnosti.
 
 ### Programersko razmišljanje
@@ -61,7 +55,7 @@ je posvećena internetu: kako radi, deljenju sadržaja i sigurnosti.
 
 + Uzrast: `IV-VIII razred osnovne škole`
 + Status: `U izradi`
-+ Uključi se!
++ [Uključi se](join)
 + [Program](skratch)
 
 Prvi koraci u programiranju u programskom jeziku i okruženju '_Scratch_'.
@@ -76,17 +70,16 @@ Prvi koraci u programiranju u programskom jeziku i okruženju '_Scratch_'.
 Mladima koji završe fakultete je potrebno još usmeravanja u pogledu tehnologija
 i ciljeva. Java pitalice su svojevrsni performans koji se sastoji iz dva dela.
 Prvi deo čine zanimljiva trik-pitanja kojim ukazujemo na neke osobenosti
-programiranja. Drugi deo je otvorena diskusija, gde odgovaramo i diskutujemo
-na sva pitanja u vezi tehnologija.
+programiranja. Drugi deo podstiče otvorenu diskusiju, i tada odgovaramo i promišljamo sva pitanja u vezi sa tehnologijama.
 
 
 ### Sajt za škole
 {: .stuff}
 + Status: `U izradi`
-+ Uključi se!
++ [Uključi se](join)
 + [Program](sajt-za-skole)
 
-Nemali broj škola nema svoj web-site. Jedan deo škola je primoran na korišćenje
+Veliki broj škola nema svoj web-site. Jedan deo škola je primoran na korišćenje
 nekvalitetnih, zatvorenih i skupih CMSova. Cilj ovog programa je da se napravi priručnik
 kako škole mogu da naprave websajt na WordPress platformi i uspostave svoje
 prisustvo na internetu.
@@ -94,7 +87,7 @@ prisustvo na internetu.
 ### Google Apps za škole
 {: .stuff}
 + Status: `Implementirano`, `Beta`
-+ Uključi se!
++ [Uključi se](join)
 + [Program](google-apps)
 
 Google Apps je zgodna platforma koju škola može da koristi za svoj rad,
@@ -104,7 +97,7 @@ već se deca kompjuterski opismenjavaju.
 ### Edukativne web aplikacije
 {: .stuff}
 + Status: `Planiranje`
-+ Uključi se!
++ [Uključi se](join)
 
 Planiramo izradu nekoliko web aplikacija koje bi bile od pomoći najmlađima.
 Sve ideje su jednostavne, poučne. Svaka aplikacija je besplatna.
