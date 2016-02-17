@@ -55,7 +55,7 @@ je posvećena internetu: kako radi, deljenju sadržaja i sigurnosti.
 
 + Uzrast: `IV-VIII razred osnovne škole`
 + Status: `U izradi`
-+ [Uključi se](join){: .button .special .icon .fa-plus}
++ [Uključi se](join)
 + [Program](skratch)
 
 Prvi koraci u programiranju u programskom jeziku i okruženju '_Scratch_'.
@@ -76,7 +76,7 @@ programiranja. Drugi deo podstiče otvorenu diskusiju, i tada odgovaramo i promi
 ### Sajt za škole
 {: .stuff}
 + Status: `U izradi`
-+ [Uključi se](join){: .button .special .icon .fa-plus}
++ [Uključi se](join)
 + [Program](sajt-za-skole)
 
 Veliki broj škola nema svoj web-site. Jedan deo škola je primoran na korišćenje
@@ -87,7 +87,7 @@ prisustvo na internetu.
 ### Google Apps za škole
 {: .stuff}
 + Status: `Implementirano`, `Beta`
-+ [Uključi se](join){: .button .special .icon .fa-plus}
++ [Uključi se](join)
 + [Program](google-apps)
 
 Google Apps je zgodna platforma koju škola može da koristi za svoj rad,
@@ -97,7 +97,7 @@ već se deca kompjuterski opismenjavaju.
 ### Edukativne web aplikacije
 {: .stuff}
 + Status: `Planiranje`
-+ [Uključi se](join){: .button .special .icon .fa-plus}
++ [Uključi se](join)
 
 Planiramo izradu nekoliko web aplikacija koje bi bile od pomoći najmlađima.
 Sve ideje su jednostavne, poučne. Svaka aplikacija je besplatna.
