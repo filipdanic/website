@@ -34,6 +34,7 @@ GEM
     deep_merge (1.0.0)
     dotenv (1.0.2)
     ffi (1.9.10)
+    ffi (1.9.10-x64-mingw32)
     formatador (0.2.5)
     guard (2.13.0)
       formatador (>= 0.2.4)
@@ -70,6 +71,8 @@ GEM
     nenv (0.2.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.7.2-x64-mingw32)
+      mini_portile2 (~> 2.0.0.rc2)
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -95,6 +98,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   adsf
@@ -116,4 +120,4 @@ DEPENDENCIES
   sass
 
 BUNDLED WITH
-   1.11.0
+   1.11.2
