@@ -27,7 +27,7 @@ def related_tag_items(item, itemsnumber = 5)
 		end
 	end
 	
-	a = a.sort {|left, right| (@items[left])[:event] <=> (@items[right])[:event]}
+	a = a.sort_by { |h| h[:event] }.reverse!
 	a = a[0, itemsnumber]
 	
 	return a
