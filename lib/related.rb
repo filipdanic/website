@@ -1,6 +1,6 @@
 require 'set'
 
-def related_tag_items(item)
+def related_tag_items(item, itemsnumber = 5)
 	tags = item[:tags]
 
 	a = Array.new
@@ -26,6 +26,9 @@ def related_tag_items(item)
 			end
 		end
 	end
-
+	
+	a = a.sort {|left, right| (@items[left])[:event] <=> (@items[right])[:event]}
+	a = a[0, itemsnumber]
+	
 	return a
 end
