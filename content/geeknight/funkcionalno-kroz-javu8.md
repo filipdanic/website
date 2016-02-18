@@ -1,6 +1,6 @@
 ---
 title: Funkcionalno kroz Javu 8
-subtitle: Organizovanje događaja je važan oblik delovanja
+subtitle: Paradigma programiranja koja je deo modernih jezika
 img: /images/hsbck_geeknight.jpg
 kind: talk
 event: 2015-02-17
