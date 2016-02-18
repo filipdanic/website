@@ -1434,12 +1434,12 @@
 				height: inherit;
 				line-height: inherit;
 				img {
-					position: relative; top: 2px;
+					position: relative; top: 10px;
 					margin-right: 10px;
 				}
 				span {
 					position: relative;
-					top: -10px;
+					top: -3px;
 				}
 
 				@include breakpoint(small) {
