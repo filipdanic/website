@@ -73,11 +73,16 @@ def events_old_of_kind(kind = nil)
 	return events
 end
 
-# returns old,new or all events with option to specify kind
+# returns events
+# params: time ('new', 'old', 'all' - default 'all'), kind ('any string', 'all' - default 'all'), limitnumber (number - default 2)
+# usage <%= render '/partial', :time => 'new|old|all', :kind => 'all|specific',  :limitnumber => 5 %>
+# you can ommit any parameter it will fallback to default
+# never returns a nil
 def get_events(time = nil, kind = nil, limitnumber = nil)
 
-  if (limitnumber == nil)
-    limitnumber = 4
+  case limitnumber
+    when "all" then limitnumber = 1000
+    when nil then limitnumber = 2
   end
 
   events = Array.new
@@ -86,20 +91,24 @@ def get_events(time = nil, kind = nil, limitnumber = nil)
   case time
     when "new" then eventslist = $new_events
     when "old" then eventslist = $old_events
+    when "all" then eventslist = $old_events + $old_events
     else eventslist = $old_events + $old_events
   end
+
   if (kind == nil || kind == "all")
     events = eventslist
   else
     eventslist.each do |itid|
-      item = @items[itid]
-      if item[:kind] == kind
-        events.push(item)
+      it = @items[itid]
+      if it[:kind] == kind
+        events.push(itid)
       end
     end
   end
 
-  events =  events[0, limitnumber]
+  if events.size != 0
+    events = events[0, limitnumber]
+  end
 
   return events
 

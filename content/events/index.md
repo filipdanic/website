@@ -27,7 +27,7 @@ Učestvujte i <a href="/prijava.html">prijavite</a> vaše prezentacije!
 sa ciljem brze razmene ideja i znanja među učesnicima, u prijatnoj atmosferi prve
 jutarnje kafe.
 
-<%= render '/_event_list.html', :time => 'old', :kind => 'all', :limitnumber => 6 %>
+<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 10 %>
 
 ## Geek Nights
 {: .stuff}
@@ -37,7 +37,7 @@ okuplja nas oko predstavljanja tehnološke priorode. Predavanja, paneli, radioni
 ali i više kratkih prezentacija - sva imaju za cilj konkretniju razmenu znanja
 i iskustava.
 
-<%= render '/_event_list.html', :time => 'old', :kind => 'all', :limitnumber => 6 %>
+<%= render '/_event_list.html', :time => 'old', :kind => 'talk', :limitnumber => 10 %>
 
 ## Konferencije
 {: .stuff}

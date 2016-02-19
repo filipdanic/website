@@ -57,4 +57,4 @@ Ukoliko želite da budete sponzor javite nam se na **<mailto:geeknight@heapspace
 
 ## Arhiva
 
-<%= render '/_event_list.html', :time => 'old', :kind => 'all',  :limitnumber => 6 %>
+<%= render '/_event_list.html', :time => 'old', :kind => 'talk',  :limitnumber => 10 %>

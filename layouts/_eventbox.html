@@ -1,9 +1,12 @@
+<% if (@item[:event_venue] != nil) %>
 <div class="event_box">
+	<% if (@item[:view_map] != nil && @item[:view_map] == true) %>
 <div id="map_canvas" class="map"
 	data-map-name="<%= venue_name(@item) %>"
 	<%= venue_map_position(@item) %> ></div>
+	<% end %>
 	<div class="venue1">
-	<%=event_datum(@item)%> | <%= @item[:event_time] %>
+	<% if (@item[:event_at] != nil) %><%=event_datum(@item)%><% end %> | <% if (@item[:event_time] != nil) %><%= @item[:event_time] %><% end %>
 	</div>
 	<div class="venue2">
 	<%= venue_name(@item) %> | <%= venue_address(@item) %>
@@ -14,3 +17,4 @@
 	</div>
 	<% end %>
 </div>
+<% end %>

@@ -71,4 +71,4 @@ Ukoliko želite da budete sponzor doručka javite nam se na **<mailto:dorucak@he
 
 ## Arhiva
 
-<%= render '/_event_list.html', :time => 'old', :kind => 'all', :limitnumber => 6 %>
+<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
