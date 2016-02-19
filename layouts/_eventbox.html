@@ -1,6 +1,5 @@
-<% if (@item[:event_venue] != nil) %>
 <div class="event_box">
-	<% if (@item[:view_map] != nil && @item[:view_map] == true) %>
+	<% if (@item[:event_venue] != nil && @item[:view_map] == true) %>
 <div id="map_canvas" class="map"
 	data-map-name="<%= venue_name(@item) %>"
 	<%= venue_map_position(@item) %> ></div>
@@ -17,4 +16,3 @@
 	</div>
 	<% end %>
 </div>
-<% end %>
