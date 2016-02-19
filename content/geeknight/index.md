@@ -57,8 +57,4 @@ Ukoliko želite da budete sponzor javite nam se na **<mailto:geeknight@heapspace
 
 ## Arhiva
 
-<% events_old_of_kind('talk').each{ |it| %>
-
-<%= render '/_event_small.html', :item => it %>
-
-<%}%>
+<%= render '/_event_list.html', :time => 'old', :kind => 'all',  :limitnumber => 6 %>

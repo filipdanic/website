@@ -1,0 +1,9 @@
+<div>
+	<% get_events(@time, @kind, @limitnumber).each { |itid| it = @items[itid] %>
+		<div class="item">
+			<%=kind_icon(it[:kind])%>
+			<div><%=link_to(h(it[:title]), it)%> : <%=h(it[:subtitle])%></div>
+			<div class="date"><%=datum(it[:event])%></div>
+		</div>
+	<% } %>
+</div>

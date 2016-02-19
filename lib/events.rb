@@ -73,6 +73,37 @@ def events_old_of_kind(kind = nil)
 	return events
 end
 
+# returns old,new or all events with option to specify kind
+def get_events(time = nil, kind = nil, limitnumber = nil)
+
+  if (limitnumber == nil)
+    limitnumber = 4
+  end
+
+  events = Array.new
+  eventslist = Array.new
+
+  case time
+    when "new" then eventslist = $new_events
+    when "old" then eventslist = $old_events
+    else eventslist = $old_events + $old_events
+  end
+  if (kind == nil || kind == "all")
+    events = eventslist
+  else
+    eventslist.each do |itid|
+      item = @items[itid]
+      if item[:kind] == kind
+        events.push(item)
+      end
+    end
+  end
+
+  events =  events[0, limitnumber]
+
+  return events
+
+end
 
 # Renders human datum in RS format
 def event_datum(item)

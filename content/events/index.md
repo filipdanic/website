@@ -4,7 +4,7 @@ subtitle: Organizovanje događaja je važan oblik delovanja
 img: events.jpg
 ---
 
-<%= render '/_events.html', :evclass => 'events_inverse' %>
+<%= render '/_events.html', :time => 'new', :kind => 'all', :limitnumber => 2, :evclass => 'events_inverse' %>
 
 <div class="row" markdown="1">
 
@@ -27,12 +27,7 @@ Učestvujte i <a href="/prijava.html">prijavite</a> vaše prezentacije!
 sa ciljem brze razmene ideja i znanja među učesnicima, u prijatnoj atmosferi prve
 jutarnje kafe.
 
-<% events_old_of_kind('tekfast').each{ |it| %>
-
-<%= render '/_event_small.html', :item => it %>
-
-<%}%>
-
+<%= render '/_event_list.html', :time => 'old', :kind => 'all', :limitnumber => 6 %>
 
 ## Geek Nights
 {: .stuff}
@@ -42,12 +37,7 @@ okuplja nas oko predstavljanja tehnološke priorode. Predavanja, paneli, radioni
 ali i više kratkih prezentacija - sva imaju za cilj konkretniju razmenu znanja
 i iskustava.
 
-<% events_old_of_kind('talk').each{ |it| %>
-
-<%= render '/_event_small.html', :item => it %>
-
-<%}%>
-
+<%= render '/_event_list.html', :time => 'old', :kind => 'all', :limitnumber => 6 %>
 
 ## Konferencije
 {: .stuff}
