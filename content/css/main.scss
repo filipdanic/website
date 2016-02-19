@@ -925,16 +925,11 @@
 			position: relative;
 			text-align: left;
 			width: 50%;
+			cursor: pointer;
 
-			a {
-				@include padding(2em, 2em, (0,0,0,2em));
-				border-bottom: 0;
-				display: block;
-				&:hover {
-					border-bottom: 0;
-					background-color: _palette(bg);
-				}
-			}
+			@include padding(2em, 2em, (0,0,0,2em));
+			border-bottom: 0;
+			display: block;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
@@ -991,6 +986,12 @@
 					border-top: 0;
 				}
 			}
+
+			&:hover {
+				border-bottom: 0;
+				background-color: _palette(bg);
+			}
+
 		}
 	}
 
