@@ -37,13 +37,16 @@ def get_next_event()
   return @items[$new_events.first]
 end
 
-def count_events(key, val)
+def count_events_by(val)
   eventcount = 0
   eventslist = $new_events + $old_events
+  nextevent = @items[$new_events.first]
   eventslist.each do |itid|
     it = @items[itid]
-    if it[:"#{key}"].upcase.include? val.upcase
-      eventcount += 1
+    if it[:"#{val}"] != nil && nextevent[:"#{val}"] != nil
+      if it[:"#{val}"].upcase.include? nextevent[:"#{val}"].upcase
+        eventcount += 1
+      end
     end
   end
   if eventcount != 0
