@@ -88,6 +88,11 @@
 
 			}
 
+			// li as link in features on homepage
+			$('[data-link]').click(function() {
+    			window.location.href = $(this).data("link");
+  		});
+
 	});
 
 })(jQuery);
