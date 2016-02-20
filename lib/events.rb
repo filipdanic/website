@@ -33,12 +33,10 @@ def events_sort()
   $old_events = $old_events.reverse
 end
 
-def get_next_event_date()
-  $new_events.each do |itid|
-    it = @items[itid]
-    return it[:event]
-  end
+def get_next_event()
+  return @items[$new_events.first]
 end
+
 ### --- rendering phase ---
 
 # returns only new events of a kind

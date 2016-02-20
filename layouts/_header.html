@@ -16,4 +16,5 @@
 								</li>
 							</ul>
 						</nav>
-						<span id="countdown" countdown data-date="<%= get_next_event_date() %>" data-text="%s d / %s h / %s m / %s s"></span>
+						<% nextevent = get_next_event() %>
+						<a href="<%=relative_path_to(nextevent)%>" title="<%=h(nextevent[:title])%>"><span id="countdown" countdown data-date="<%= nextevent[:event] %>" data-text="%s d / %s h / %s m / %s s"></span></a>

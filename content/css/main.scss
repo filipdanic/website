@@ -1521,10 +1521,14 @@
 		}
 
 		#countdown {
+			opacity: 0.65;
 			font-size: 0.65em;
 	    font-weight: 100;
 	    float: right;
 	    margin: 2px 151px 0 0;
+			&:hover {
+				opacity: 1;
+			}
 		}
 
 	}
