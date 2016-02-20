@@ -1524,21 +1524,18 @@
 
 /* countdown in header */
 	.countdownbox {
-		float: right;
-		a.nextevent {
-			margin-right: 120px;
-    	font-size: 0.75em;
-    	border: 0;
-			border: 0;
-			 #countdowntext {
-				padding: 0 6px;
-				background-color: _palette(accent6, bg);
-				&:hover {
-					background-color: lighten(_palette(accent6, bg), 5) !important;
-				}
-				&:active {
-					background-color: darken(_palette(accent6, bg), 5) !important;
-				}
+		text-align: center;
+		 #countdowntext {
+			cursor: pointer;
+			font-size: 0.75em;
+     	border: 0;
+			padding: 0 6px;
+			background-color: _palette(accent6, bg);
+			&:hover {
+				background-color: lighten(_palette(accent6, bg), 5) !important;
+			}
+			&:active {
+				background-color: darken(_palette(accent6, bg), 5) !important;
 			}
 		}
 	}

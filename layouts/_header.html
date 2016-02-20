@@ -16,5 +16,9 @@
 								</li>
 							</ul>
 						</nav>
-						<% nextevent = get_next_event() %>
-						<div class="countdownbox"><a class="nextevent" href="<%=relative_path_to(nextevent)%>" title="<%=h(nextevent[:title])%>"><span id="countdowntext" countdown data-date="<%= nextevent[:event] %>" data-text="%s d / %s h / %s m / %s s"></span></a></div>
+						<%
+						nextevent = get_next_event()
+						count_previous_by = 'title'
+						numberofitems = count_events(count_previous_by, nextevent[:"#{count_previous_by}"])
+						%>
+						<div class="countdownbox"><span id="countdowntext" data-link="<%=relative_path_to(nextevent)%>" countdown data-date="<%= nextevent[:event] %>" data-text="<%= nextevent[:title] %> <%= numberofitems %> za %dd, %hh, %mm, %ss"></span></div>

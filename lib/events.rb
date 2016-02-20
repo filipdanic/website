@@ -37,6 +37,20 @@ def get_next_event()
   return @items[$new_events.first]
 end
 
+def count_events(key, val)
+  eventcount = 0
+  eventslist = $new_events + $old_events
+  eventslist.each do |itid|
+    it = @items[itid]
+    if it[:"#{key}"].upcase.include? val.upcase
+      eventcount += 1
+    end
+  end
+  if eventcount != 0
+    return "##{eventcount}"
+  end
+end
+
 ### --- rendering phase ---
 
 # returns only new events of a kind
@@ -94,8 +108,8 @@ def get_events(time = nil, kind = nil, limitnumber = nil)
   case time
     when "new" then eventslist = $new_events
     when "old" then eventslist = $old_events
-    when "all" then eventslist = $old_events + $old_events
-    else eventslist = $old_events + $old_events
+    when "all" then eventslist = $new_events + $old_events
+    else eventslist = $new_events + $old_events
   end
 
   if (kind == nil || kind == "all")
