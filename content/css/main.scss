@@ -1511,6 +1511,7 @@
 			}
 		}
 
+
 		&.alt {
 			background: transparent;
 
@@ -1519,19 +1520,29 @@
 				opacity: 0;
 			}
 		}
+	}
 
-		#countdown {
-			opacity: 0.65;
-			font-size: 0.65em;
-	    font-weight: 100;
-	    float: right;
-	    margin: 2px 151px 0 0;
-			&:hover {
-				opacity: 1;
+/* countdown in header */
+	.countdownbox {
+		float: right;
+		a.nextevent {
+			margin-right: 120px;
+    	font-size: 0.75em;
+    	border: 0;
+			border: 0;
+			 #countdowntext {
+				padding: 0 6px;
+				background-color: _palette(accent6, bg);
+				&:hover {
+					background-color: lighten(_palette(accent6, bg), 5) !important;
+				}
+				&:active {
+					background-color: darken(_palette(accent6, bg), 5) !important;
+				}
 			}
 		}
-
 	}
+
 
 /* Banner */
 
