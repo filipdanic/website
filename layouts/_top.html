@@ -37,7 +37,10 @@ function initializeGoogleMap(mapCanvas, mapLat, mapLng, mapName) {
 		mapTypeControl: false,
 		navigationControl: true,
 		navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-		mapTypeId: google.maps.MapTypeId.ROADMAP
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		panControl: true,
+		scrollwheel: false,
+		overviewMapControl: true
     };
 	var map = new google.maps.Map(mapCanvas, settings);
 	var marker = new google.maps.Marker({
