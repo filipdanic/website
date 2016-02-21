@@ -11,3 +11,8 @@ def kind_icon(kind)
       return '<i class="fa fa-comments"></i>'
   end
 end
+
+# returns github edit URL for item
+def githubEditUrl(item)
+	return "https://github.com/HeapSpace/website/edit/master/content" + item.identifier.without_exts + ".md"
+end
