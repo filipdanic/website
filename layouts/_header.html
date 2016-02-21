@@ -18,6 +18,5 @@
 						</nav>
 						<%
 						nextevent = get_next_event()
-						numberofitems = count_events_by('kind')
 						%>
-						<div class="countdownbox"><span id="countdowntext" data-link="<%=relative_path_to(nextevent)%>" countdown data-date="<%= nextevent[:event] %>" data-text="<%= nextevent[:title] %> <%= numberofitems %> za %dd, %hh, %mm, %ss"></span></div>
+						<div class="countdownbox"><span id="countdowntext" data-link="<%=relative_path_to(nextevent)%>" countdown data-date="<%= nextevent[:event] %>" data-text="<%= nextevent[:title] %> za %dd:%hh:%mm:%ss"></span></div>
