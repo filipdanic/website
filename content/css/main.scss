@@ -1370,6 +1370,19 @@
 					@include breakpoint(small) {
 						line-height: 3em;
 					}
+
+					&.github-edit {
+						opacity: 0.4;
+						&:hover {
+							opacity: 0.6;
+						}
+						span {
+							display: inline-block;
+							vertical-align: top;
+							margin: 0 8px;
+						}
+					}
+
 				}
 			}
 		}
