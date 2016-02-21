@@ -43,12 +43,12 @@ od tebe samog.
 
 ## Role
 
-### BizWiz
+### Fundraiser
 
-Biznis lice HeapSpace. Čarobnjak sa informacijama i vešt pregovarač.
+Biznis lice HeapSpace. Čarobnjak informacijama i vešt pregovarač.
 Neko ko može da jasno predstavi naše vrednosti i efikasno usmeri pažnju
-ka ključnim planovima. Vodio bi komunkaciju sa IT firmama i učestvovao
-u izradi velikih i malih planova.
+ka ključnim planovima. Vodio bi komunkaciju sa organizacijama i firmama,
+i aktivno učestvovao u izradi velikih i malih planova.
 
 ### Community manager
 
@@ -56,13 +56,6 @@ Nasmejano lice koje radi sa zajednicom. Rad na svim događajima, druženje sa
 zanimljivim ljudima iz različitih oblasti. Promocija zajednice kroz mreže,
 ozbiljne razgovore, ali i čavrljanja. Pojavljivanje na drugim okupljanjima.
 Rad sa drugim domaćim zajednicama.
-
-### WebDev ninja
-
-Održavanje i nadogradnja sajta. Jednostavan, ali važan zadatak. Ne samo što
-je potrebno da se barata sa HTML, CSS, SASS, Ruby-jem, već treba i osmišljavati
-sadržaj i učiniti korisničko iskustvo što lakšim. U praznom hodu, tu je rad
-na drugim projektima koje imamo u planu.
 
 ### Content maker
 
@@ -74,3 +67,12 @@ marljivost i posvećenost, a donosi izuzetnu važnost.
 
 Produkcija podkasta. Seckanje, lepljenje, sklapanje, džinglovi i odjavne špice.
 Neko ko može da se uhvati u koštac sa zvukom.
+
+<!--
+### WebDev ninja
+
+Održavanje i nadogradnja sajta. Jednostavan, ali važan zadatak. Ne samo što
+je potrebno da se barata sa HTML, CSS, SASS, Ruby-jem, već treba i osmišljavati
+sadržaj i učiniti korisničko iskustvo što lakšim. U praznom hodu, tu je rad
+na drugim projektima koje imamo u planu.
+-->
