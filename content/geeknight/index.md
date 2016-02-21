@@ -29,9 +29,14 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 + `18:30` - `18:35` Uvod i pozdrav
 
-+ `18:35` - `19:15` _Offline web aplikacije_ : [Slobodan Stojanović](https://slobodan.me/) ([CloudHorizon](https://twitter.com/CloudHorizon))
++ `18:35` - `19:15` _Offline web aplikacije_ : [Slobodan Stojanović](https://slobodan.me/) ([CloudHorizon](https://twitter.com/CloudHorizon))  \\
+  Prezentacije odgovora na pitanje - zašto bi ikome bile potrebne offline web aplikacije -
+  uz kratak osvrt tehnologiju koja nam daje mogućnost da sajtovi i aplikacije rade i bez interneta.
+  Service Workers, App Cache i client side storage (localStorage, IndexedDB i WebSQL).
 
-+ `19:15` - `19:55` _Rad između developera i dizajnera_ : [Nenad Ivanović](http://www.nenadivanovic.com/) (Behance)
++ `19:15` - `19:55` _Rad između developera i dizajnera_ : [Nenad Ivanović](http://www.nenadivanovic.com/) (Behance) \\
+  Saradnja između developera i dizajnera je danas neophodna da bi se dobio kvalitetan UX.
+  Ovo je priča o tome.
 
 + `19:55` - `20:35` _Kako popraviti robotiće_ : [Igor Spasić](https://github.com/igorspasic) \\
   Kratka plovidba od brute-force algoritma do optimizacije, u Kotlinu (zašto ne:) ili
