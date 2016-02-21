@@ -8,11 +8,13 @@ class MdLinks < Nanoc::Filter
 
   	page.css("a").each{|link|
   		href = link['href']
-  		if href.end_with? ".md"
-  			href = href[0..-3] + "html"
-  			link['href'] = href
-  			change = true
-  		end
+      if !href.start_with? "http"
+    		if href.end_with? ".md"
+    			href = href[0..-3] + "html"
+    			link['href'] = href
+    			change = true
+    		end
+      end
   	}
 
   	if change == true
