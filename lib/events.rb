@@ -100,6 +100,8 @@ end
 # never returns a nil
 def get_events(time = nil, kind = nil, limitnumber = nil)
 
+  selfitem = @item
+
   case limitnumber
     when "all" then limitnumber = 1000
     when nil then limitnumber = 2
@@ -120,7 +122,7 @@ def get_events(time = nil, kind = nil, limitnumber = nil)
   else
     eventslist.each do |itid|
       it = @items[itid]
-      if it[:kind] == kind
+      if it[:kind] == kind && it != selfitem
         events.push(itid)
       end
     end

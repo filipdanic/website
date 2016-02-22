@@ -25,29 +25,36 @@ partner:
 
 ## Agenda
 
-+ `18:30` - `18:35` Uvod i pozdrav
-+ `18:35` - `19:15` **React.JS Internals** - [Jovan Erčić](https://www.linkedin.com/in/jokka) ([SpiceFactory](http://spicefactory.co/))
+<span class="icon-clock" /> 18:30 - 18:35 \\
+**Uvod i pozdrav**
+{: .agenda-item}
 
-Ponekad je i iz ugla korisnika dobro poznavati 'kako' nešto radi, a ne samo
-'šta'. Proćićemo kroz osnovne koncepte koji su korišćeni u implementaciji
-React.js i šta to znači za korisnika.
+<span class="icon-clock" /> 18:35 - 19:15 \\
+**React.JS Internals** \\
+<span class="icon-user" /> [Jovan Erčić](https://www.linkedin.com/in/jokka) | <span class="icon-home" /> ([SpiceFactory](http://spicefactory.co/)) \\
+  Ponekad je i iz ugla korisnika dobro poznavati 'kako' nešto radi, a ne samo
+  'šta'. Proćićemo kroz osnovne koncepte koji su korišćeni u implementaciji
+  React.js i šta to znači za korisnika.
+{: .agenda-item}
 
-+ `19:15` - `19:55` **Kubernetes** - [Vukašin Vukoje](https://twitter.com/wukoje)
+<span class="icon-clock" /> 19:15 - 19:55 \\
+**Kubernetes** \\
+<span class="icon-user" /> [Vukašin Vukoje](https://twitter.com/wukoje) \\
+  Živimo u svetu gde je sve češće sve manje stvari dovoljno. To nas dovodi u situaciju da razmišljamo o više, u ovom slučaju razmisljaćemo o više od jednog računara.
+  Predavanje počinje sa kratkim uvodom u kontejnere i kako nam oni pomažu u rešavanju ovog problema nakon čega se nastavlja sa šta je Kubernetes-om i kako on rešava ovaj problem
+{: .agenda-item}
 
-Živimo u svetu gde je sve češće sve manje stvari dovoljno. To nas dovodi u situaciju da razmišljamo o više, u ovom slučaju razmisljaćemo o više od jednog računara.
-Predavanje počinje sa kratkim uvodom u kontejnere i kako nam oni pomažu u rešavanju ovog problema nakon čega se nastavlja sa šta je Kubernetes-om i kako on rešava ovaj problem
+<span class="icon-clock" /> 19:55 - 20:35 \\
+**Rancher**  \\
+<span class="icon-user" /> [Marko Uskoković](https://www.linkedin.com/in/uskokovicmarko) \\
+  Nije farma nego ranč! Kako da pokrenete i upravljate svojim privatnim kotejner servisom. Docker za sve u okviru vaše organizacije.
+{: .agenda-item}
 
-+ `19:55` - `20:35` **Rancher** - [Marko Uskoković](https://www.linkedin.com/in/uskokovicmarko)
-
-Nije farma nego ranč! Kako da pokrenete i upravljate svojim privatnim kotejner servisom. Docker za sve u okviru vaše organizacije.
-
-+ `20:35` - `21:30` Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)
+<span class="icon-clock" /> 20:35 - 21:30 \\
+**Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)**
+{: .agenda-item}
 
 
 ## Arhiva
 
-<% events_old_of_kind('talk').each{ |it| %>
-
-<%= render '/_event_small.html', :item => it %>
-
-<%}%>
+<%= render '/_event_list.html', :time => 'old', :kind => 'talk', :limitnumber => 10 %>
