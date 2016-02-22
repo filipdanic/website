@@ -1,5 +1,42 @@
 <div>
-	<% @albums.each do |albumid| %>
-		<div class="js-flickr-gallery" data-toggle="jsfg" data-user-id="<%= albumid %>" data-per-page="30"></div>
-	<% end %>
+<% @sources.each_with_index	{ |gallery, index| %>
+	<div id="nanoGallery-<%= index += 1 %>"></div>
+<% } %>
 </div>
+<script>
+$(function () {
+	<% @sources.each_with_index	{ |gallery, index| %>
+  $("#nanoGallery-<%= index += 1 %>").nanoGallery({
+		thumbnailL1Width:'220C xs100C sm100C', thumbnailL1Height:'150C xs100C sm100C',
+    thumbnailWidth:'auto', thumbnailHeight:'200 xs80 sm150 la250 xl290',
+    thumbnailHoverEffect:[{'name':'imageScale150', 'duration':350},{'name':'labelAppear75', 'duration':350},{'name':'descriptionAppear', 'duration':700}],
+    imageTransition : 'slide',
+    galleryToolbarWidthAligned:false,
+    thumbnailLabel:{display:false,align:'center', position:'overImageOnMiddle'},
+    thumbnailL1Label:{display:true,align:'center', position:'overImageOnMiddle'},
+    touchAnimationL1: true,
+    touchAnimation:false,
+    i18n:{
+			breadcrumbHome: 'Galerije',
+			paginationPrevious: 'Prethodna',
+			paginationNext: 'Sledeća',
+      thumbnailImageDescription:'pogledaj fotografiju',
+      thumbnailAlbumDescription:'otvori galeriju'
+    },
+    viewerToolbar: { standard:'minimizeButton,pageCounter,playPauseButton,linkOriginalButton,label', autoMinimize:5000 },
+    supportIE8: false,
+    paginationDots: true,
+    breadcrumbAutoHideTopLevel:true,
+		<% case gallery[:type]
+				when 'flickr' then album = 'photoset'
+				when 'picasa' then album = 'album'
+		end	%>
+		kind: '<%= gallery[:type] %>',
+    userID: '<%= gallery[:user] %>',
+		<% if (gallery[:album] != nil && gallery[:album] != '') %>
+			<%= album + ': "' + gallery[:album] + '"' %>
+		<% end %>
+  });
+	<% } %>
+});
+</script>
