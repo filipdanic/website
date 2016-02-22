@@ -1,0 +1,5 @@
+<div>
+	<% @albums.each do |albumid| %>
+		<div class="js-flickr-gallery" data-toggle="jsfg" data-user-id="<%= albumid %>" data-per-page="30"></div>
+	<% end %>
+</div>

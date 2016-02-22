@@ -93,6 +93,6 @@
     			window.location.href = $(this).data("link");
   		});
 
-	});
+		});
 
 })(jQuery);
