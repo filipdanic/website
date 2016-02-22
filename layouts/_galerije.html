@@ -34,7 +34,8 @@ $(function () {
 		kind: '<%= gallery[:type] %>',
     userID: '<%= gallery[:user] %>',
 		<% if (gallery[:album] != nil && gallery[:album] != '') %>
-			<%= album + ': "' + gallery[:album] + '"' %>
+			<%= album + ': "' + gallery[:album] + '",' %>
+			paginationMaxLinesPerPage: 2
 		<% end %>
   });
 	<% } %>
