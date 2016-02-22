@@ -68,6 +68,10 @@ marljivost i posvećenost, a donosi izuzetnu važnost.
 Produkcija podkasta. Seckanje, lepljenje, sklapanje, džinglovi i odjavne špice.
 Neko ko može da se uhvati u koštac sa zvukom.
 
+## Javite se!
+
+Prijavite se na <mailto:info@heapspace.rs>. Napišite nešto o sebi i pošaljite smajlija :)
+
 <!--
 ### WebDev ninja
 
