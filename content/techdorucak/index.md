@@ -41,18 +41,30 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
-+ `8:00` Kafa + kiflice dobrodošlice, opušteni razgovor sa učesnicima
-+ `8:15` Pozdrav suncu ;)
-+ `8:20` Predstavljanja
+<i></i>{: .fa .fa-clock-o} 08:00 \\
+**Kafa + kiflice dobrodošlice** \\
+opušteni razgovor sa učesnicima
+{: .agenda-item}
 
-+ COMING SOON!
+<i></i>{: .fa .fa-clock-o} 08:15 \\
+**Pozdrav suncu ;)**
+{: .agenda-item}
 
-**Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite...
-15 sekundi je vaše - iskoristite ih!
-
+<i></i>{: .fa .fa-clock-o} 08:20 \\
+**Predstavljanja** \\
 TBA
+{: .agenda-item}
 
-+ `9:00 - 9:30` Slobodna diskusija uz kofeinsku dopunu ako zatreba ;)
+<i></i>{: .fa .fa-clock-o} COMING SOON! \\
+**Shout outs** \\
+hoćete nešto da kažete, podelite, tražite, nudite...
+15 sekundi je vaše - iskoristite ih!
+{: .agenda-item}
+
+<i></i>{: .fa .fa-clock-o} 9:00 - 9:30 \\
+**Slobodna diskusija** \\
+uz kofeinsku dopunu ako zatreba ;)
+{: .agenda-item}
 
 
 Potvrdite dolazak: <a href="http://www.meetup.com/HeapSpace/events/<%=@item[:event_meetup]%>/" data-event="<%=@item[:event_meetup]%>" class="mu-rsvp-btn invisible">RSVP</a>
