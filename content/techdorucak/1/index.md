@@ -42,9 +42,11 @@ opušteni razgovor sa učesnicima
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
 
+## Arhiva
+
+<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
+
 ## Fotke
-
-
 
 ![](600_445365866.jpeg){: .5u}
 ![](600_445365869.jpeg){: .5u}
