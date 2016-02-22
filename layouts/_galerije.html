@@ -35,7 +35,11 @@ $(function () {
     userID: '<%= gallery[:user] %>',
 		<% if (gallery[:album] != nil && gallery[:album] != '') %>
 			<%= album + ': "' + gallery[:album] + '",' %>
-			paginationMaxLinesPerPage: 2
+			<% if (gallery[:rows] != nil && gallery[:rows] != '') %>
+				paginationMaxLinesPerPage: <%= gallery[:rows] %>
+			<% else %>
+				paginationMaxLinesPerPage: 1
+			<% end %>
 		<% end %>
   });
 	<% } %>
