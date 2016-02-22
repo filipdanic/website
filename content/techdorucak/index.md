@@ -41,27 +41,27 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
-<i></i>{: .fa .fa-clock-o} 08:00 \\
+<span class="icon-clock" /> 08:00 \\
 **Kafa + kiflice dobrodošlice** \\
 opušteni razgovor sa učesnicima
 {: .agenda-item}
 
-<i></i>{: .fa .fa-clock-o} 08:15 \\
+<span class="icon-clock" /> 08:15 \\
 **Pozdrav suncu ;)**
 {: .agenda-item}
 
-<i></i>{: .fa .fa-clock-o} 08:20 \\
+<span class="icon-clock" /> 08:20 \\
 **Predstavljanja** \\
 TBA
 {: .agenda-item}
 
-<i></i>{: .fa .fa-clock-o} COMING SOON! \\
+<span class="icon-clock" /> COMING SOON! \\
 **Shout outs** \\
 hoćete nešto da kažete, podelite, tražite, nudite...
 15 sekundi je vaše - iskoristite ih!
 {: .agenda-item}
 
-<i></i>{: .fa .fa-clock-o} 9:00 - 9:30 \\
+<span class="icon-clock" /> 9:00 - 9:30 \\
 **Slobodna diskusija** \\
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}

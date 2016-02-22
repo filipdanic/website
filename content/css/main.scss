@@ -90,14 +90,41 @@
 		margin-bottom: 1.2em;
     padding-bottom: 1.2em;
 		border-bottom: 1px dotted #999;
-		.fa-user {
-			margin-bottom: 20px;
+
+		.icon-clock {
+			&:before {
+				content: "\f017";
+				font-family: FontAwesome;
+			}
 		}
+
+		.icon-user {
+			&:before {
+				content: "\f007";
+				font-family: FontAwesome;
+			}
+		}
+
+		.icon-home {
+			&:before {
+				content: "\f015";
+				font-family: FontAwesome;
+			}
+		}
+
 		strong {
-			color: darken(_palette(accent1, bg), 5) !important;
 			display: inline-block;
 			font-size: 125%;
 			padding-top: 3px;
+			color: darken(_palette(accent1, bg), 5) !important;
+			em {
+				font-style: normal;
+				font-size: 90%;
+				color: black !important;
+				&:hover {
+					color: white !important;
+				}
+			}
 		}
 	}
 
