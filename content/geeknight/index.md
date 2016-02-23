@@ -3,6 +3,7 @@ title: GeekNight #2
 title_img: geek-night.png
 subtitle: S tehnologijama kroz noć
 img: /images/hsbck_geeknight.jpg
+kind: 'talk'
 event: 2016-02-25
 event_time: 18:30 - 21:30
 event_venue: skc
