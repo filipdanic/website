@@ -5,7 +5,7 @@
 @import 'libs/skel';
 @import "compass/css3";
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800,800italic');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700,800,800italic');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
 
 @include skel-breakpoints((
@@ -614,14 +614,14 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		// padding-left: 1em;
 
 		ul {
 			margin: 0 0 _size(element-margin)/2 0;
 		}
 
 		li {
-			padding-left: 0.5em;
+			// padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -1510,7 +1510,7 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-
+			z-index: 1000;
 			> ul {
 				list-style: none;
 				margin: 0;
@@ -1591,6 +1591,48 @@
 			}
 			&:active {
 				background-color: darken(_palette(accent6, bg), 5) !important;
+			}
+		}
+	}
+
+	.darkbg {
+		background: _palette(bg);
+	}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	.inline {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+
+	.flipcount {
+
+    width: 100%;
+    text-align: center;
+		a {
+			border-bottom-color: transparent !important;
+		}
+		.flipwrap {
+			background: _palette(bg);
+			display: inline-block;
+			height: 60px;
+			padding: 0.2em 1em 0 1em;
+			.flipevent {
+				font-weight: 300;
+		    font-size: 1.1em;
+		    float: left;
+		    margin-top: -3px;
+		    margin-right: 12px;
+			}
+			.clock {
+				width: auto;
+				float: left;
 			}
 		}
 	}
@@ -1947,6 +1989,11 @@
 		}
 	}
 
+	.clockshadow {
+		-webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+	}
 
 @import 'style';
 @import 'forms';

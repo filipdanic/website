@@ -1,23 +1,20 @@
-						<h1><a href="/index.html"><img src="/images/hs_logo_small.png"><span>HeapSpace</span></a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Meni</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="/index.html">Početna</a></li>
-											<li><a href="/events">Događaji</a></li>
-											<li><a href="/opensource.html">Open-Source</a></li>
-											<li><a href="/kids">HS :heart: kids</a></li>
-											<li><a href="/ukljuci-se.html">Uključi se</a></li>
-											<li><a href="/index.html#kontakt">Kontakt</a></li>
-											<li><a class="github-edit" href="<%= githubEditUrl(@item) %>"><i class="fa fa-pencil-square fa-2x"></i><span>Izmeni stranu</span></a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-						<%
-						nextevent = get_next_event()
-						%>
-						<div class="countdownbox"><span id="countdowntext" data-link="<%=relative_path_to(nextevent)%>" countdown data-date="<%= nextevent[:event] %>" data-text="<%= nextevent[:title] %> za %dd:%hh:%mm:%ss"></span></div>
+<h1><a href="/index.html"><img src="/images/hs_logo_small.png"><span>HeapSpace</span></a></h1>
+<nav id="nav">
+	<ul>
+		<li class="special">
+			<a href="#menu" class="menuToggle"><span>Meni</span></a>
+			<div id="menu">
+				<ul>
+					<li><a href="/index.html">Početna</a></li>
+					<li><a href="/events">Događaji</a></li>
+					<li><a href="/opensource.html">Open-Source</a></li>
+					<li><a href="/kids">HS :heart: kids</a></li>
+					<li><a href="/ukljuci-se.html">Uključi se</a></li>
+					<li><a href="/index.html#kontakt">Kontakt</a></li>
+					<li><a class="github-edit" href="<%= githubEditUrl(@item) %>"><i class="fa fa-pencil-square fa-2x"></i><span>Izmeni stranu</span></a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</nav>
+<%= render '/_nextevent.html' %>
