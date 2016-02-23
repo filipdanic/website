@@ -41,6 +41,12 @@ opušteni razgovor sa učesnicima
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
 
+
 ## Arhiva
 
 <%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
+
+
+## Fotke
+
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157664834728261', rows: 2 } ] %>

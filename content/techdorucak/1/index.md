@@ -42,20 +42,12 @@ opušteni razgovor sa učesnicima
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
 
+
 ## Arhiva
 
 <%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
 
+
 ## Fotke
 
-![](600_445365866.jpeg){: .5u}
-![](600_445365869.jpeg){: .5u}
-![](600_445378916.jpeg){: .5u}
-![](600_445378915.jpeg){: .5u}
-![](600_445365862.jpeg){: .5u}
-![](600_445365848.jpeg){: .5u}
-![](600_445378921.jpeg){: .5u}
-![](600_445378917.jpeg){: .5u}
-![](600_445378920.jpeg){: .5u}
-![](600_445378923.jpeg){: .5u}
-![](600_445365857.jpeg){: .5u}
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157662646777884', rows: 2 } ] %>
