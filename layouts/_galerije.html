@@ -18,14 +18,13 @@ $(function () {
     touchAnimation:false,
     i18n:{
 			breadcrumbHome: 'Galerije',
-			paginationPrevious: 'Prethodna',
-			paginationNext: 'Sledeća',
+			paginationPrevious: 'Prethodna / ',
+			paginationNext: ' / Sledeća',
       thumbnailImageDescription:'pogledaj fotografiju',
       thumbnailAlbumDescription:'otvori galeriju'
     },
     viewerToolbar: { standard:'minimizeButton,pageCounter,playPauseButton,linkOriginalButton,label', autoMinimize:5000 },
     supportIE8: false,
-    paginationDots: true,
     breadcrumbAutoHideTopLevel:true,
 		<% case gallery[:type]
 				when 'flickr' then album = 'photoset'

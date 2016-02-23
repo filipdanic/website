@@ -58,3 +58,8 @@ partner:
 ## Arhiva
 
 <%= render '/_event_list.html', :time => 'old', :kind => 'talk', :limitnumber => 10 %>
+
+
+## Fotke
+
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157665003722785', rows: 2 } ] %>
