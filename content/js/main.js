@@ -81,12 +81,21 @@
 
 				$banner.scrollex({
 					bottom:		$header.outerHeight() + 1,
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); }
+					terminate:	function() { $header.removeClass('alt'); $('.flipwrap').animate({ backgroundColor: '#2e3842' }, 'fast').removeClass('clockshadow'); },
+					enter:		function() { $header.addClass('alt'); $('.flipwrap').animate({ backgroundColor: '#00a5a5' }, 'fast').addClass('clockshadow'); },
+					leave:		function() { $header.removeClass('alt'); $('.flipwrap').animate({ backgroundColor: '#2e3842' }, 'fast').removeClass('clockshadow'); }
 				});
 
 			}
+
+
+
+			// $('.flipwrap').scrollex({
+			// 	bottom:		$header.outerHeight() + 1,
+			// 	terminate:	function() { $('.flipwrap').animate({backgroundColor: '#00a5a5'}, 'normal'); },
+			// 	enter:		function() { $('.flipwrap').animate({backgroundColor: '#2e3842'}, 'normal'); },
+			// 	leave:		function() { $('.flipwrap').animate({backgroundColor: '#00a5a5'}, 'normal'); }
+			// });
 
 			// li as link in features on homepage
 			$('[data-link]').click(function() {
