@@ -10,7 +10,10 @@ to je format u kome je napisan sadržaj - tačnije, korišćena je [kramdown](ht
 varijanta.
 
 Potrebno je razumeti i _promenljive_ (u _headeru_ strane). Pomoću njih se
-uključuju/isključuju delovi strana i funkcionalnosti.
+uključuju/isključuju delovi strana i funkcionalnosti. Spisak i objašnjenje
+je dato u [ovom fajlu](../METADATA.md).
+
+Naravno, morate biti ulogovani na [GitHub](http://github.com) da bi radili izmene.
 
 ## Koraci
 
