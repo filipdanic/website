@@ -1,11 +1,10 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 
-$clock-font-size: 30px;
-$clock-height: ($clock-font-size * 1.2);
-$digit-gap: 3px;
-$border-radius: 5px;
-$dot-size: 6px;
+
+
+
+
 
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
@@ -191,10 +190,6 @@ $dot-size: 6px;
   position: relative;
   width: 20px;
   height: 100px;
-  &.days { .flip-clock-label { padding-left: 1.5em; } }
-  &.hours { .flip-clock-label {padding-left: 2.9em; } }
-  &.minutes { .flip-clock-label {padding-left: 2.3em; } }
-  &.seconds { .flip-clock-label {padding-left: 2em; } }
 }
 
 .flip-clock-divider:first-child {
@@ -212,11 +207,12 @@ $dot-size: 6px;
 
 .flip-clock-divider .flip-clock-label {
     position: relative;
-    top: -1.4em;
+    top: -1.5em;
     text-shadow: none;
     text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 300;
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
 }
 
 .flip-clock-dot.top {
@@ -438,48 +434,83 @@ $dot-size: 6px;
   100% {
     opacity: 0; } }
 
-.flip-clock-wrapper ul {
-	width: ($clock-font-size * 0.8);
-	height: $clock-height;
-	margin: 0 ($digit-gap / 2);
+@mixin responsive-clock($clock-font-size) {
+
+    $clock-height: ($clock-font-size * 1.2);
+    $digit-gap: ($clock-font-size * 0.2);
+    $border-radius: ($clock-font-size * 0.3);
+    $dot-size: ($clock-font-size * 0.3);
+
+    @if $clock-font-size == 26px {
+      .flip-clock-divider {
+        &.days { .flip-clock-label { padding-left: 1.6em; } }
+        &.hours { .flip-clock-label { padding-left: 3.9em; } }
+        &.minutes { .flip-clock-label { padding-left: 3.3em; } }
+        &.seconds { .flip-clock-label { padding-left: 3em; } }
+      }
+    }
+
+    @if $clock-font-size == 14px {
+      .flip-clock-divider {
+        &.days { .flip-clock-label { display: none } }
+        &.hours { .flip-clock-label { display: none } }
+        &.minutes { .flip-clock-label { display: none } }
+        &.seconds { .flip-clock-label { display: none } }
+      }
+    }
+
+    .flip-clock-wrapper ul {
+    	width: ($clock-font-size * 0.8);
+    	height: $clock-height;
+    	margin: 0 ($digit-gap / 2);
+    }
+
+    .flip-clock-wrapper ul li {
+    	line-height: $clock-height * 1.05;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn {
+    	font-size: $clock-font-size;
+    }
+
+    .flip-clock-wrapper ul,
+    .flip-clock-wrapper ul li a div div.inn {
+        border-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.down {
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.up:after {
+    	top: (($clock-height / 2) - 1px);
+    }
+
+    .flip-clock-dot.top {
+        top: ($clock-height / 2 - $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot.bottom {
+        top: ($clock-height / 2 + $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot{
+        width: $dot-size;
+        height: $dot-size;
+        left: $dot-size;
+    }
+
+    .flip-clock-divider {
+        width: ($dot-size * 3);
+    }
+
 }
 
-.flip-clock-wrapper ul li {
-	line-height: $clock-height * 1.05;
+@media screen and (max-width: 480px) {
+    @include responsive-clock($clock-font-size: 14px);
 }
 
-.flip-clock-wrapper ul li a div div.inn {
-	font-size: $clock-font-size;
-}
-
-.flip-clock-wrapper ul,
-.flip-clock-wrapper ul li a div div.inn {
-    border-radius: $border-radius;
-}
-
-.flip-clock-wrapper ul li a div.down {
-    border-bottom-left-radius: $border-radius;
-    border-bottom-right-radius: $border-radius;
-}
-
-.flip-clock-wrapper ul li a div.up:after {
-	top: (($clock-height / 2) - 1px);
-}
-
-.flip-clock-dot.top {
-    top: ($clock-height / 2 - $clock-font-size * 0.2 - $dot-size / 2);
-}
-
-.flip-clock-dot.bottom {
-    top: ($clock-height / 2 + $clock-font-size * 0.2 - $dot-size / 2);
-}
-
-.flip-clock-dot{
-    width: $dot-size;
-    height: $dot-size;
-    left: $dot-size;
-}
-
-.flip-clock-divider {
-    width: ($dot-size * 3);
+@media screen and (min-width: 481px) {
+    @include responsive-clock($clock-font-size: 26px);
 }

@@ -1,5 +1,7 @@
 <%
 nextevent = get_next_event()
+timestring = nextevent[:event].to_s + ' ' + nextevent[:event_start].to_s
+diff = Time.parse(timestring).to_i - Time.now.to_i
 if nextevent[:event] != nil
 %>
 <div class="flipcount">
@@ -12,9 +14,7 @@ if nextevent[:event] != nil
 </div>
 <script type="text/javascript">
 $(function () {
-	var today = new Date().getTime();
-	var targetdate = new Date('<%= nextevent[:event] %> <%= nextevent[:event_start] %>').getTime();
-	$('.clock').FlipClock((targetdate - today)/1000, {
+	$('.clock').FlipClock('<%= diff %>', {
 		clockFace: 'DailyCounter',
 		countdown: true
 	})
