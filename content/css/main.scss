@@ -1570,11 +1570,73 @@
 		&.alt {
 			background: transparent;
 
+			.flipwrap {
+				-webkit-transition: all 0.5s;
+			  -moz-transition: all 0.5s;
+			  -o-transition: all 0.5s;
+			  transition: all 0.5s;
+				-webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75) !important;
+				-moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75) !important;
+				box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75) !important;
+				background-color: _palette(accent1, bg) !important;
+			}
+
+			.flip-clock-wrapper ul li a div div.inn, .flip-clock-dot {
+		    background-color: _palette(bg) !important;
+		  }
+
 			h1 {
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
 			}
 		}
+
+
+
+		.flipcount {
+	    width: 100%;
+	    text-align: center;
+			a {
+				border-bottom-color: transparent !important;
+			}
+			.flipwrap {
+				-webkit-transition: all 0.5s;
+			  -moz-transition: all 0.5s;
+			  -o-transition: all 0.5s;
+			  transition: all 0.5s;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+				background: _palette(bg);
+				display: inline-block;
+				height: 60px;
+				padding: 0.1em 1em 0 1em;
+				@include breakpoint(small) {
+					padding: 0.3em 1em 0 2em;
+				}
+				@include breakpoint(xsmall) {
+					padding: 0.7em 1em 0 2em;
+				}
+				.flipevent {
+					font-weight: 300;
+			    font-size: 1.1em;
+			    float: left;
+			    margin-top: -3px;
+			    margin-right: 12px;
+					@include breakpoint(medium) {
+						display: none;
+					}
+				}
+				.clock {
+					width: auto;
+					float: left;
+				}
+				.flip-clock-wrapper ul li a div div.inn, .flip-clock-dot {
+			    background: _palette(accent1, bg);
+			  }
+			}
+		}
+
 	}
 
 /* countdown in header */
@@ -1600,57 +1662,10 @@
 		background: _palette(bg);
 	}
 
-	.fixed {
-		position: fixed;
-		top: 0;
-		left: 0;
-	}
 
-	.inline {
-		display: inline-block;
-		position: relative;
-		width: 100%;
-	}
-
-	.flipcount {
-
-    width: 100%;
-    text-align: center;
-		a {
-			border-bottom-color: transparent !important;
-		}
-		.flipwrap {
-			background: _palette(bg);
-			display: inline-block;
-			height: 60px;
-			padding: 0.2em 1em 0 1em;
-			@include breakpoint(small) {
-				padding: 0.4em 1em 0 2em;
-			}
-			@include breakpoint(xsmall) {
-				padding: 0.7em 1em 0 2em;
-			}
-			.flipevent {
-				font-weight: 300;
-		    font-size: 1.1em;
-		    float: left;
-		    margin-top: -3px;
-		    margin-right: 12px;
-				@include breakpoint(medium) {
-					display: none;
-				}
-			}
-			.clock {
-				width: auto;
-				float: left;
-			}
-		}
-	}
 
 	.clockshadow {
-		-webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
-		box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+
 	}
 
 
