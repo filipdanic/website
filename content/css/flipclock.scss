@@ -1,7 +1,7 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 
-$clock-font-size: 30px;
+$clock-font-size: 26px;
 $clock-height: ($clock-font-size * 1.2);
 $digit-gap: 3px;
 $border-radius: 5px;
@@ -191,10 +191,10 @@ $dot-size: 6px;
   position: relative;
   width: 20px;
   height: 100px;
-  &.days { .flip-clock-label { padding-left: 1.5em; } }
+  &.days { .flip-clock-label { padding-left: 1.3em; } }
   &.hours { .flip-clock-label {padding-left: 2.9em; } }
-  &.minutes { .flip-clock-label {padding-left: 2.3em; } }
-  &.seconds { .flip-clock-label {padding-left: 2em; } }
+  &.minutes { .flip-clock-label {padding-left: 2.4em; } }
+  &.seconds { .flip-clock-label {padding-left: 2.2em; } }
 }
 
 .flip-clock-divider:first-child {
@@ -212,11 +212,12 @@ $dot-size: 6px;
 
 .flip-clock-divider .flip-clock-label {
     position: relative;
-    top: -1.4em;
+    top: -1.5em;
     text-shadow: none;
     text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 300;
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
 }
 
 .flip-clock-dot.top {

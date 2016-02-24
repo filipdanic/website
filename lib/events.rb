@@ -56,43 +56,6 @@ end
 
 ### --- rendering phase ---
 
-# returns only new events of a kind
-# never returns a nil
-def events_new_of_kind(kind = nil)
-	if (kind == nil)
-		return $new_events
-	end
-
-	events = Array.new
-
-	$new_events.each do |itid|
-		item = @items[itid]
-		if item[:kind] == kind
-			events.push(item)
-		end
-	end
-
-	return events
-end
-
-# returns old events of a kind
-def events_old_of_kind(kind = nil)
-	if (kind == nil)
-		return $old_events
-	end
-
-	events = Array.new
-
-	$old_events.each do |itid|
-		item = @items[itid]
-		if item[:kind] == kind
-			events.push(item)
-		end
-	end
-
-	return events
-end
-
 # returns events
 # params: time ('new', 'old', 'all' - default 'all'), kind ('any string', 'all' - default 'all'), limitnumber (number - default 2)
 # usage <%= render '/partial', :time => 'new|old|all', :kind => 'all|specific',  :limitnumber => 5 %>
