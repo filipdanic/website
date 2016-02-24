@@ -1,9 +1,10 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'font-awesome.min.css';
 @import 'libs/skel';
 @import "compass/css3";
+@import 'font-awesome.min.css';
+@import 'flipclock';
 
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700,800,800italic');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
@@ -1622,13 +1623,19 @@
 			background: _palette(bg);
 			display: inline-block;
 			height: 60px;
-			padding: 0.2em 1em 0 1em;
+			padding: 0.4em 1em 0 1em;
+			@include breakpoint(xsmall) {
+				padding: 0.7em 1em 0 2em;
+			}
 			.flipevent {
 				font-weight: 300;
 		    font-size: 1.1em;
 		    float: left;
 		    margin-top: -3px;
 		    margin-right: 12px;
+				@include breakpoint(medium) {
+					display: none;
+				}
 			}
 			.clock {
 				width: auto;
