@@ -13,7 +13,7 @@ if nextevent[:event] != nil
 <script type="text/javascript">
 $(function () {
 	var today = new Date().getTime();
-	var targetdate = new Date('<%= nextevent[:event] %>').getTime();
+	var targetdate = new Date('<%= nextevent[:event] %> <%= nextevent[:event_start] %>').getTime();
 	$('.clock').FlipClock((targetdate - today)/1000, {
 		clockFace: 'DailyCounter',
 		countdown: true

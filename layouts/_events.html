@@ -11,7 +11,7 @@
 
 			<div class="when-where">
 				<h4 class="title"><%=kind_icon(it[:kind])%> <%=h(it[:title])%></h4>
-				<div class="time"><%=it[:event_time]%></div>
+				<div class="time"><%=it[:event_start]%>-<%=it[:event_end]%></div>
 				<% if it[:event_venue] != nil %>
 				<div>@<%= venue_name(it) %></div>
 				<address><i class="fa fa-map-marker"></i> <%= venue_address(it) %></address>

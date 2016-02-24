@@ -5,7 +5,7 @@
 	<%= venue_map_position(@item) %> ></div>
 	<% end %>
 	<div class="venue1">
-	<% if (@item[:event_at] != nil) %><%=event_datum(@item)%><% end %> | <% if (@item[:event_time] != nil) %><%= @item[:event_time] %><% end %>
+	<% if (@item[:event_at] != nil) %><%=event_datum(@item)%><% end %> | <% if (@item[:event_start] != nil) %><%= @item[:event_start] %> - <%= @item[:event_end] %><% end %>
 	</div>
 	<div class="venue2">
 	<%= venue_name(@item) %> | <%= venue_address(@item) %>

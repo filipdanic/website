@@ -4,7 +4,8 @@ subtitle: Asinhrono programiranje je najbolji način za rad sa velikim saobraća
 img: /images/hsbck_geeknight.jpg
 kind: talk
 event: 2015-03-17
-event_time: '19:00'
+event_start: '19:30'
+event_end: '21:30'
 event_venue: impacthub
 view_map: true
 tags:

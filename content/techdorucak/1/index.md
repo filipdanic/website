@@ -5,7 +5,8 @@ title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
 event: 2015-12-24
-event_time: 8:00 - 9:30
+event_start: '8:00'
+event_end: '9:30'
 event_venue: parobrod
 event_meetup: 227451686
 view_map: true

@@ -5,7 +5,8 @@ subtitle: ReactJS | Kubernetes | Rancher
 img: /images/hsbck_geeknight.jpg
 kind: talk
 event: 2016-01-28
-event_time: 18:30 - 20:30
+event_start: '18:30'
+event_end: '20:30'
 event_venue: skc
 view_map: true
 tags:

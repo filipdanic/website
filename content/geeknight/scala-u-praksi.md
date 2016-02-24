@@ -4,7 +4,8 @@ subtitle: Panel diskusija na temu Scala tehnologija
 img: scala.png
 kind: talk
 event: 2014-12-08
-event_time: '19:30'
+event_start: '19:30'
+event_end: '21:30'
 event_venue: cpn-old
 view_map: true
 tags:

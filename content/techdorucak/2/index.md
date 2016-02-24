@@ -5,7 +5,8 @@ title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
 event: 2016-02-03
-event_time: 8:00 - 9:30
+event_start: '8:00'
+event_end: '9:30'
 event_venue: parobrod
 event_meetup: 227567895
 view_map: true

@@ -4,7 +4,8 @@ subtitle: Paradigma programiranja koja je deo modernih jezika
 img: /images/hsbck_geeknight.jpg
 kind: talk
 event: 2015-02-17
-event_time: '19:00'
+event_start: '19:00'
+event_end: '21:00'
 event_venue: cpn-old
 view_map: true
 tags:

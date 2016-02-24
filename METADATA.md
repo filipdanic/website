@@ -1,6 +1,7 @@
 # Meta Podaci
 
-Opis meta podataka koji se koriste na stranicama i člancima.
+Opis meta podataka koji se koriste na stranicama i člancima. Definisani su u
+headeru, u YAML formatu.
 
 ## Naslov
 
@@ -19,7 +20,8 @@ Opis meta podataka koji se koriste na stranicama i člancima.
 ## Event
 
 + `event` - datum kada se event dešava, u formatu: YYYY-MM-DD
-+ `event_time` - vreme održavanja eventa
++ `event_start` - početak održavanja eventa, u formatu: HH-MM
++ `event_end` - kraj održavanja eventa, u formatu: HH-MM
 + `event_venue` - mesto gde se dešava event:
 	+ `parobrod` - Parobrod
 	+ `cpn_old` - stari CPN
