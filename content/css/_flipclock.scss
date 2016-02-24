@@ -438,15 +438,15 @@
 
     $clock-height: ($clock-font-size * 1.2);
     $digit-gap: ($clock-font-size * 0.2);
-    $border-radius: ($clock-font-size * 0.3);
-    $dot-size: ($clock-font-size * 0.3);
+    $border-radius: ($clock-font-size * 0.2);
+    $dot-size: ($clock-font-size * 0.2);
 
     @if $clock-font-size == 26px {
       .flip-clock-divider {
-        &.days { .flip-clock-label { padding-left: 1.6em; } }
-        &.hours { .flip-clock-label { padding-left: 3.9em; } }
-        &.minutes { .flip-clock-label { padding-left: 3.3em; } }
-        &.seconds { .flip-clock-label { padding-left: 3em; } }
+        &.days { .flip-clock-label { padding-left: 1.3em; } }
+        &.hours { .flip-clock-label { padding-left: 2.9em; } }
+        &.minutes { .flip-clock-label { padding-left: 2.4em; } }
+        &.seconds { .flip-clock-label { padding-left: 2.2em; } }
       }
     }
 

@@ -1623,7 +1623,10 @@
 			background: _palette(bg);
 			display: inline-block;
 			height: 60px;
-			padding: 0.4em 1em 0 1em;
+			padding: 0.2em 1em 0 1em;
+			@include breakpoint(small) {
+				padding: 0.4em 1em 0 2em;
+			}
 			@include breakpoint(xsmall) {
 				padding: 0.7em 1em 0 2em;
 			}
