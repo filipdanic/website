@@ -1,12 +1,14 @@
 ---
-title: GeekNight #2
+title: GeekNight 5
 title_img: geek-night.png
 subtitle: S tehnologijama kroz noć
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
-
+event: 2016-02-25
+event_start: '18:30'
+event_end: '21:30'
 event_venue: skc
-event_meetup:
+event_meetup: 228451616
 view_map: true
 partner:
   - skc
@@ -27,7 +29,7 @@ softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Agenda
-{::comment}
+
 <span class="icon-clock" /> 18:30 - 18:35 \\
 **Uvod i pozdrav**
 {: .agenda-item}
@@ -57,7 +59,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 <span class="icon-clock" /> 20:35 - 21:30 \\
 **Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)**
 {: .agenda-item}
-{:/comment}
+
 
 ## Prijava
 

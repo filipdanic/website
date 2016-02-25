@@ -1,7 +1,7 @@
 require 'erb'
 require 'date'
 
-$now = Date.today
+$now = Time.now.to_i
 $new_events = Array.new
 $old_events = Array.new
 
@@ -13,10 +13,11 @@ def event_register(item)
   if !item.key?(:event)
     return
   end
-
-  eventDate = item[:event]
-
-  if ($now > eventDate)
+  if !item[:event].nil? || !item[:event].empty? && !item[:event_start].nil? || !item[:event_start].empty?
+    eventDatestring = item[:event].to_s + ' ' + item[:event_start].to_s
+    eventDate = Time.parse(eventDatestring).to_i
+  end
+  if (eventDate != nil && $now > eventDate)
     $old_events.push(item.identifier)
   else
     $new_events.push(item.identifier)
@@ -34,7 +35,11 @@ def events_sort()
 end
 
 def get_next_event()
-  return @items[$new_events.first]
+  latestitem = @items[$new_events.first]
+  timestring = latestitem[:event].to_s + ' ' + latestitem[:event_start].to_s
+  if Time.parse(timestring).to_i > Time.now.to_i
+    return @items[$new_events.first]
+  end
 end
 
 def count_events_by(val)
