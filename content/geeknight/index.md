@@ -4,7 +4,9 @@ title_img: geek-night.png
 subtitle: S tehnologijama kroz noć
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
-
+event:
+event_start:
+event_end:
 event_venue: skc
 event_meetup:
 view_map: true
