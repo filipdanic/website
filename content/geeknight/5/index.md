@@ -1,6 +1,6 @@
 ---
-title: GeekNight 5
-title_img: geek-night.png
+title: GeekNight 5 | Offline Javascript | Desingers <3 Developers | Brutal Force & Kotlin
+title_img: ../geek-night.png
 subtitle: S tehnologijama kroz noć
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
