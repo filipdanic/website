@@ -26,8 +26,9 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
-## Agenda
 {::comment}
+## Agenda
+
 <span class="icon-clock" /> 18:30 - 18:35 \\
 **Uvod i pozdrav**
 {: .agenda-item}
