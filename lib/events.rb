@@ -21,7 +21,7 @@ def event_register(item)
       $new_events.push(item.identifier)
     end
 
-    item[:event_at] = attribute_to_time(eventDatestring)
+    item[:event_at] = attribute_to_time(item[:event])
   end
 end
 
