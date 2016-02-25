@@ -14,7 +14,7 @@ if nextevent[:event] != nil
 </div>
 <script type="text/javascript">
 $(function () {
-	var today = (new Date().getTime())/1000;
+	var today = ((new Date().getTime())-(60*60))/1000;
 	var targetdate = '<%= targetdate %>';
 	$('.clock').FlipClock((targetdate - today), {
 		clockFace: 'DailyCounter',
