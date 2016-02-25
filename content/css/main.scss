@@ -1571,6 +1571,7 @@
 			background: transparent;
 
 			.flipwrap {
+				cursor: pointer;
 				-webkit-transition: all 0.5s;
 			  -moz-transition: all 0.5s;
 			  -o-transition: all 0.5s;
@@ -1583,6 +1584,7 @@
 
 			.flip-clock-wrapper ul li a div div.inn, .flip-clock-dot {
 		    background-color: _palette(bg) !important;
+				cursor: pointer;
 		  }
 
 			h1 {
@@ -1600,6 +1602,7 @@
 				border-bottom-color: transparent !important;
 			}
 			.flipwrap {
+				cursor: pointer;
 				-webkit-transition: all 0.5s;
 			  -moz-transition: all 0.5s;
 			  -o-transition: all 0.5s;
@@ -1633,6 +1636,7 @@
 				}
 				.flip-clock-wrapper ul li a div div.inn, .flip-clock-dot {
 			    background: _palette(accent1, bg);
+					cursor: pointer;
 			  }
 			}
 		}
