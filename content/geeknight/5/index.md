@@ -78,3 +78,8 @@ Ukoliko želite da budete sponzor javite nam se na **<mailto:geeknight@heapspace
 ## Arhiva
 
 <%= render '/_event_list.html', :time => 'old', :kind => 'talk',  :limitnumber => 10 %>
+
+
+## Fotke
+
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157662748415234', rows: 2 } ] %>
