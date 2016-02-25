@@ -13,6 +13,7 @@ view_map: true
 partner:
   - skc
   - zaječarsko
+  - bipizza
 ---
 
 _GeekNight_ se održava jednom mesečno - svakog _poslednjeg četvrtka_ u mesecu -
