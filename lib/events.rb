@@ -10,12 +10,12 @@ $old_events = Array.new
 # register events and maintains the list of future events and past events
 # preprocessing
 def event_register(item)
-  if item[:event] != nil && item[:event] != ''
-    if (item[:event_start] != nil || item[:event] != '') && (item[:event_start] != nil || item[:event_start] != '')
+  if !item[:event].to_s.empty?
+    if !item[:event].to_s.empty? && !item[:event_start].to_s.empty?
       eventDatestring = item[:event].to_s + ' ' + item[:event_start].to_s
       eventDate = Time.parse(eventDatestring).to_i
     end
-    if (eventDate != nil && $now > eventDate)
+    if (!eventDate.nil? && $now > eventDate)
       $old_events.push(item.identifier)
     else
       $new_events.push(item.identifier)
