@@ -1,25 +1,27 @@
 <%
 nextevent = get_next_event()
-timestring = nextevent[:event].to_s + ' ' + nextevent[:event_start].to_s
-targetdate = Time.parse(timestring).to_i
-if nextevent[:event] != nil
-%>
-<div class="flipcount">
-	<div class="flipwrap" data-link="<%=relative_path_to(nextevent)%>">
-		<div class="flipevent">
-			<%= nextevent[:title] %>
+if nextevent != nil
+	timestring = nextevent[:event].to_s + ' ' + nextevent[:event_start].to_s
+	targetdate = Time.parse(timestring).to_i
+	if nextevent[:event] != nil
+	%>
+	<div class="flipcount">
+		<div class="flipwrap" data-link="<%=relative_path_to(nextevent)%>">
+			<div class="flipevent">
+				<%= nextevent[:title] %>
+			</div>
+			<div class="clock"></div>
 		</div>
-		<div class="clock"></div>
 	</div>
-</div>
-<script type="text/javascript">
-$(function () {
-	var today = ((new Date().getTime())/1000)+(60*60);
-	var targetdate = '<%= targetdate %>';
-	$('.clock').FlipClock((targetdate - today), {
-		clockFace: 'DailyCounter',
-		countdown: true
-	})
-});
-</script>
-<% end %>
+	<script type="text/javascript">
+	$(function () {
+		var today = ((new Date().getTime())/1000)+(60*60);
+		var targetdate = '<%= targetdate %>';
+		$('.clock').FlipClock((targetdate - today), {
+			clockFace: 'DailyCounter',
+			countdown: true
+		})
+	});
+	</script>
+<% end
+end %>
