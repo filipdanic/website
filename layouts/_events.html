@@ -19,5 +19,19 @@
 			</div>
 		</a>
 	</li>
+	<%	if it[:event] != nil && it[:event_start] != nil
+			timestring = it[:event].to_s + ' ' + it[:event_start].to_s
+			targetdate = Time.parse(timestring).to_i
+	%>
+	<script type="text/javascript">
+	$(function () {
+		var today = ((new Date().getTime())/1000)+(60*60);
+		var targetdate = '<%= targetdate %>';
+		if (targetdate > today) {
+			$('.date').append('<a href="<%=relative_path_to(it)%>index.ics" class="icalboxed">Download iCal</a>');
+		}
+	});
+	</script>
+	<% end %>
 <% } %>
 </ul>

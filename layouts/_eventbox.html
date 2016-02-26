@@ -10,9 +10,24 @@
 	<div class="venue2">
 	<%= venue_name(@item) %> | <%= venue_address(@item) %>
 	</div>
+	<div class="icalfile"></div>
 	<% if (@item[:event_meetup] != nil) %>
 	<div class="venue3">
 		<a href="http://www.meetup.com/HeapSpace/events/<%= @item[:event_meetup] %>/" class="button fit special" target="_blank">meetup</a>
 	</div>
+	<% end %>
+	<%	if @item[:event] != nil && @item[:event_start] != nil
+			timestring = @item[:event].to_s + ' ' + @item[:event_start].to_s
+			targetdate = Time.parse(timestring).to_i
+	%>
+	<script type="text/javascript">
+	$(function () {
+		var today = ((new Date().getTime())/1000)+(60*60);
+		var targetdate = '<%= targetdate %>';
+		if (targetdate > today) {
+			$('.icalfile').html('<a href="./index.ics"><i class="fa fa-calendar"></i> iCal</a>');
+		}
+	});
+	</script>
 	<% end %>
 </div>
