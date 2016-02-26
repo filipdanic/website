@@ -25,7 +25,7 @@
 		var today = ((new Date().getTime())/1000)+(60*60);
 		var targetdate = '<%= targetdate %>';
 		if (targetdate > today) {
-			$('.icalfile').html('<a href="./index.ics"><i class="fa fa-calendar"></i> iCal</a>');
+			$('.icalfile').html('<a href="<%=relative_path_to(@item)%>index.ics" download="<%=h(@item[:title])%>.ics"><i class="fa fa-calendar"></i> iCal</a>');
 		}
 	});
 	</script>
