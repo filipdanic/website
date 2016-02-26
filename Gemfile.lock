@@ -53,6 +53,7 @@ GEM
     haml (4.0.7)
       tilt
     htmlcompressor (0.3.0)
+    icalendar (2.3.0)
     jsmin (1.0.1)
     json (1.8.3)
     kramdown (1.9.0)
@@ -108,6 +109,7 @@ DEPENDENCIES
   guard-nanoc
   haml
   htmlcompressor
+  icalendar
   jsmin
   json
   kramdown

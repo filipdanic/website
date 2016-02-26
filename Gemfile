@@ -22,3 +22,4 @@ gem 'nanoc-external',	# :external filter
     :branch => 'nanoc4'
 gem 'guard-nanoc'
 gem 's3_website'
+gem 'icalendar'
