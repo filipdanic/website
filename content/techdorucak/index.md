@@ -53,7 +53,10 @@ opušteni razgovor sa učesnicima
 
 <span class="icon-clock" /> 08:20 \\
 **Predstavljanja** \\
-TBA
+[***ITGirls***](http://itgirls.rs/) --- <span class="icon-user" /> [Nevena Sofranić](https://rs.linkedin.com/in/nevenasofranic) \\
+[***Rails Girls***](http://railsgirls.com/beograd) --- <span class="icon-user" /> [Bojana Milašinović](https://rs.linkedin.com/in/bojanamilasinovic) \\
+[***Open source dokumenta građana***](http://jfreesteel.devbase.net/) --- <span class="icon-user" /> [Goran Rakić](http://devbase.net/) \\
+[***OKU***](http://www.getoku.com/) --- <span class="icon-user" /> Sava Marinković
 {: .agenda-item}
 
 <span class="icon-clock" /> COMING SOON! \\
