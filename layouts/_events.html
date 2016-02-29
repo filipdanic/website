@@ -28,7 +28,7 @@
 		var today = ((new Date().getTime())/1000)+(60*60);
 		var targetdate = '<%= targetdate %>';
 		if (targetdate > today) {
-			$('.date').append('<a href="<%=relative_path_to(it)%>index.ics" download="<%=h(it[:title])%>.ics" class="icalboxed">Download iCal</a>');
+			$('.events_inverse .date').append('<a href="<%=relative_path_to(it)%>index.ics" download="<%=h(it[:title])%>.ics" class="icalboxed">Download iCal</a>');
 		}
 	});
 	</script>
