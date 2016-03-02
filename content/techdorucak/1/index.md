@@ -15,7 +15,7 @@ partner:
   - nescafe
 ---
 
-## Tehnološki doručak 1
+## Tehnološki Doručak 1
 
 <%= render '/_eventbox.html' %>
 
@@ -42,11 +42,6 @@ opušteni razgovor sa učesnicima
 **Slobodna diskusija** \\
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
-
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
 
 
 ## Fotke

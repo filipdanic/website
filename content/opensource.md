@@ -1,10 +1,10 @@
 ---
-title: Open-Source
+title: Otvoreni Kod i Znanje
 subtitle: Otvorena zajednica za otvorene ljude
 img: /images/hsbck_opensource2.jpg
 ---
 
-## Zašto je Open-Source važan?
+## Zašto je Otvoreni kod i Znanje važno?
 
 Važnost _Open-Source_ softvera je dostupnost izvornog koda i mogućnost
 njegovog menjanja. Tako se program razvija na pravi način, direktno
@@ -62,3 +62,13 @@ Oh yes, since it’s pure SVG, it works in almost any browser -
 IE6+, Chrome, Firefox, Safari, Opera, Android, etc.
 
 
+### JFreesteel
+{: .stuff}
+
++ Licenca: `LGPLv3`
++ [jfreesteel.devbase.net/](http://jfreesteel.devbase.net/)
++ [GIT](https://github.com/grakic/jfreesteel/)
+
+
+Читач електронске личне карте за нас остале.
+Функционалан програм за ГНУ/Линукс, Mac OS X, Windows... као и Јава библиотека и аплет које можете слободно да користите у сопственим програмима.

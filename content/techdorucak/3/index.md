@@ -17,7 +17,7 @@ partner:
   - supernatural-bar
 ---
 
-## Tehnološki doručak 3
+## Tehnološki Doručak 3
 
 <%= render '/_eventbox.html' %>
 
@@ -50,12 +50,6 @@ hoćete nešto da kažete, podelite, tražite, nudite...
 **Slobodna diskusija** \\
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
-
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
-
 
 ## Fotke
 
