@@ -42,6 +42,10 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
+TBD
+
+{::comment}
+
 <span class="icon-clock" /> 08:00 \\
 **Kafa + kiflice dobrodošlice** \\
 opušteni razgovor sa učesnicima
@@ -70,6 +74,7 @@ hoćete nešto da kažete, podelite, tražite, nudite...
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
 
+{:/comment}
 
 Potvrdite dolazak: <a href="http://www.meetup.com/HeapSpace/events/<%=@item[:event_meetup]%>/" data-event="<%=@item[:event_meetup]%>" class="mu-rsvp-btn invisible">RSVP</a>
 
