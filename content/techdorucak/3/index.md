@@ -1,8 +1,8 @@
 ---
 title: Tehnološki Doručak 3
-subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
+subtitle: ITGirls | Rail Girls | Open source dokumenta građana | OKU
 title_img: title.png
-img: /images/plavo.jpg
+img: ../images/plavo.jpg
 kind: tekfast
 event: 2016-03-02
 event_start: '8:00'
