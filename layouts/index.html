@@ -35,7 +35,7 @@
 newEvents = get_events('new')
 if (newEvents.size != 0) %>
 					<section id="one" class="wrapper style1 special" style="padding-top:0">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-calendar"></i></span></div>
+					<%= render '/_line.html', :icon => 'fa-calendar' %>
 						<div class="inner">
 
 <%= render '/_events.html', :time => 'new', :evclass => 'events_inverse'  %>
@@ -48,7 +48,7 @@ if (newEvents.size != 0) %>
 
 
 <section id="two" class="wrapper style2 special ppl" style="padding-top:0;">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-bolt"></i></span></div>
+<%= render '/_line.html', :icon => 'fa-bolt' %>
 						<div class="inner">
 <ul class="actions">
 <li><a href="/ukljuci-se.html" class="button special">UKLJUČI SE</a></li>
@@ -61,7 +61,7 @@ if (newEvents.size != 0) %>
 				<!-- MAIN -->
 
 					<section id="three" class="wrapper style3 special" style="padding-top:0">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-code"></i></span></div>
+<%= render '/_line.html', :icon => 'fa-code' %>
 						<div class="inner">
 							<header class="major">
 								<h2>HeapSpace Aktivnosti</h2>
@@ -108,7 +108,7 @@ if (newEvents.size != 0) %>
 				<!-- CTA -->
 
 					<section id="cta" class="wrapper style4" style="padding-top:0;">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-heart"></i></span></div>
+<%= render '/_line.html', :icon => 'fa-heart' %>
 						<div class="inner">
 							<header>
 								<h2>HEAPSPACE</h2>

@@ -22,36 +22,46 @@ partner:
 
 ## Agenda
 
-<span class="icon-clock" /> 18:30 - 18:35 \\
-**Uvod i pozdrav**
-{: .agenda-item}
+<div class="agenda" markdown="1">
+<%= render '/_line.html', :icon => 'fa-map-o' %>
 
-<span class="icon-clock" /> 18:35 - 19:15 \\
-**Offline web aplikacije** \\
-<span class="icon-user" /> [Slobodan Stojanović](https://slobodan.me/) | <span class="icon-home" /> ([CloudHorizon](https://twitter.com/CloudHorizon))  \\
-  Prezentacije odgovora na pitanje - zašto bi ikome bile potrebne offline web aplikacije -
+### 18:30 - 18:35
+
+## Uvod i pozdrav
+
+### 18:35 - 19:15
+
+## Offline web aplikacije
+
+[Slobodan Stojanović](https://slobodan.me/) | [CloudHorizon](https://twitter.com/CloudHorizon)
+: Prezentacije odgovora na pitanje - zašto bi ikome bile potrebne offline web aplikacije -
   uz kratak osvrt tehnologiju koja nam daje mogućnost da sajtovi i aplikacije rade i bez interneta.
   Service Workers, App Cache i client side storage (localStorage, IndexedDB i WebSQL).
-{: .agenda-item}
 
-<span class="icon-clock" /> 19:15 - 19:55 \\
-**Rad između developera i dizajnera** \\
-<span class="icon-user" /> [Nenad Ivanović](http://www.nenadivanovic.com/) | <span class="icon-home" /> (Behance) \\
-  Saradnja između developera i dizajnera je danas neophodna da bi se dobio kvalitetan UX.
+### 19:15 - 19:55
+
+## Rad između developera i dizajnera
+
+[Nenad Ivanović](http://www.nenadivanovic.com/) | Behance
+: Saradnja između developera i dizajnera je danas neophodna da bi se dobio kvalitetan UX.
   Ovo je priča o tome.
-{: .agenda-item}
 
-<span class="icon-clock" /> 19:55 - 20:35 \\
-**Kako popraviti robotiće**  \\
-<span class="icon-user" /> [Igor Spasić](https://github.com/igorspasic) \\
-  Kratka plovidba od brute-force algoritma do optimizacije, u Kotlinu (zašto ne:) ili
+
+### 19:55 - 20:35
+
+## Kako popraviti robotiće
+
+[Igor Spasić](https://github.com/igorspasic)
+: Kratka plovidba od brute-force algoritma do optimizacije, u Kotlinu (zašto ne:) ili
   "kako sam napisao program koji pronalazi rešenje za igricu".
-{: .agenda-item}
 
-<span class="icon-clock" /> 20:35 - 21:30 \\
-**Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)**
-{: .agenda-item}
+### 20:35 - 21:30
 
+## Druženje
+
+Uz [Zaječarsko pivo](http://zajecarskopivo.com/) i [BigPizzu](http://bigpizza.rs).
+
+</div>
 
 ## Fotke
 

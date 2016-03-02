@@ -41,7 +41,7 @@
 
 						<% if @item[:sponsor] != nil %>
 						<section class="wrapper style5" id="sponsors">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-trophy"></i></span></div>
+<%= render '/_line.html', :icon => 'fa-trophy' %>
 							<div class="inner">
 								<% @item[:sponsor].each { |s| %>
 								<%= render "/sponsor/#{s}.html" %>
@@ -52,7 +52,7 @@
 
 						<% if @item[:partner] != nil %>
 						<section class="wrapper style5" id="partners">
-<div class="or-spacer"><div class="mask"></div><span><i class="fa fa-diamond"></i></span></div>
+<%= render '/_line.html', :icon => 'fa-diamond' %>
 							<div class="inner">
 								<% @item[:partner].each { |s| %>
 								<%= render "/partner/#{s}.html" %>

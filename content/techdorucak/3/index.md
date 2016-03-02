@@ -23,33 +23,36 @@ partner:
 
 ## Agenda
 
-<span class="icon-clock" /> 08:00 \\
-**Kafa + kiflice dobrodošlice** \\
-opušteni razgovor sa učesnicima
-{: .agenda-item}
+<div class="agenda" markdown="1">
+<%= render '/_line.html', :icon => 'fa-map-o' %>
 
-<span class="icon-clock" /> 08:15 \\
-**Pozdrav suncu ;)**
-{: .agenda-item}
+### 8:00 - 8:20
 
-<span class="icon-clock" /> 08:20 \\
-**Predstavljanja** \\
-[***ITGirls***](http://itgirls.rs/) --- <span class="icon-user" /> [Nevena Sofranić](https://rs.linkedin.com/in/nevenasofranic) \\
-[***Rails Girls***](http://railsgirls.com/beograd) --- <span class="icon-user" /> [Bojana Milašinović](https://rs.linkedin.com/in/bojanamilasinovic) \\
-[***Open source dokumenta građana***](http://jfreesteel.devbase.net/) --- <span class="icon-user" /> [Goran Rakić](http://devbase.net/) \\
-[***OKU***](http://www.getoku.com/) --- <span class="icon-user" /> Sava Marinković
-{: .agenda-item}
+## Kafa + kiflice dobrodošlice
 
-<span class="icon-clock" /> COMING SOON! \\
-**Shout outs** \\
-hoćete nešto da kažete, podelite, tražite, nudite...
-15 sekundi je vaše - iskoristite ih!
-{: .agenda-item}
+### 8:20
 
-<span class="icon-clock" /> 9:00 - 9:30 \\
-**Slobodna diskusija** \\
-uz kofeinsku dopunu ako zatreba ;)
-{: .agenda-item}
+## Predstavljanja
+
+[ITGirls](http://itgirls.rs/) | [Nevena Sofranić](https://rs.linkedin.com/in/nevenasofranic)
+: &nbsp;
+
+[Rails Girls](http://railsgirls.com/beograd) | [Bojana Milašinović](https://rs.linkedin.com/in/bojanamilasinovic)
+: &nbsp;
+
+[Open source dokumenta građana](http://jfreesteel.devbase.net/) | [Goran Rakić](http://devbase.net/)
+: &nbsp;
+
+[OKU](http://www.getoku.com/) | Sava Marinković
+: &nbsp;
+
+### 9:00 - 9:30
+
+## Slobodna diskusija
+
+Uz kofeinsku dopunu ako zatreba ;)
+
+</div>
 
 ## Fotke
 

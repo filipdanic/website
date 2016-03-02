@@ -21,27 +21,33 @@ partner:
 
 ## Agenda
 
-<span class="icon-clock" /> 08:00 \\
-**Kafa + kiflice dobrodošlice** \\
-opušteni razgovor sa učesnicima
-{: .agenda-item}
+<div class="agenda" markdown="1">
+<%= render '/_line.html', :icon => 'fa-map-o' %>
 
-<span class="icon-clock" /> 08:15 \\
-**Pozdrav suncu ;)**
-{: .agenda-item}
+### 8:00 - 8:20
 
-<span class="icon-clock" /> 08:20 \\
-**Predstavljanja** \\
-[***Strawbery energy***](http://senergy.rs/) --- <span class="icon-user" /> [Miloš Milisavljević](https://uk.linkedin.com/in/milisavljevic) \\
-[***Solagro press system***](http://solagroteam.com/sr/%D1%80%D0%B5%D1%86%D0%B8%D0%BA%D0%BB%D0%B0%D0%B6%D0%B0/) --- <span class="icon-user" /> Nemanja Janić \\
-[***Solaris Energy - Solarna Elektrana***](http://www.solarisenergy.co.rs/) --- <span class="icon-user" /> [Miloš Kostić](https://www.linkedin.com/in/milo%C5%A1-kosti%C4%87-b834944)
-{: .agenda-item}
+## Kafa + kiflice dobrodošlice
 
-<span class="icon-clock" /> 9:00 - 9:30 \\
-**Slobodna diskusija** \\
-uz kofeinsku dopunu ako zatreba ;)
-{: .agenda-item}
+### 8:20
 
+## Predstavljanja
+
+[Strawbery energy](http://senergy.rs/) | [Miloš Milisavljević](https://uk.linkedin.com/in/milisavljevic)
+: &nbsp;
+
+[Solagro press system](http://solagroteam.com/sr/%D1%80%D0%B5%D1%86%D0%B8%D0%BA%D0%BB%D0%B0%D0%B6%D0%B0/) | Nemanja Janić
+: &nbsp;
+
+[Solaris Energy - Solarna Elektrana](http://www.solarisenergy.co.rs/) | [Miloš Kostić](https://www.linkedin.com/in/milo%C5%A1-kosti%C4%87-b834944)
+: &nbsp;
+
+### 9:00 - 9:30
+
+## Slobodna diskusija
+
+Uz kofeinsku dopunu ako zatreba ;)
+
+</div>
 
 ## Fotke
 
