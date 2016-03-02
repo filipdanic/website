@@ -34,10 +34,12 @@ def events_sort()
 end
 
 def get_next_event()
-  latestitem = @items[$new_events.first]
-  timestring = latestitem[:event].to_s + ' ' + latestitem[:event_start].to_s
-  if Time.parse(timestring).to_i > Time.now.to_i
-    return @items[$new_events.first]
+  if !$new_events.empty?
+    latestitem = @items[$new_events.first]
+    timestring = latestitem[:event].to_s + ' ' + latestitem[:event_start].to_s
+    if Time.parse(timestring).to_i > Time.now.to_i
+      return @items[$new_events.first]
+    end
   end
 end
 
