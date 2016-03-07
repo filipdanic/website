@@ -4,9 +4,9 @@ subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
 title_img: title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 
-event_start: ''
-event_end: ''
+event: 2016-04-06
+event_start: '8:00'
+event_end: '9:30'
 event_venue: parobrod
 event_meetup: 
 view_map: true
@@ -42,10 +42,6 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
-TBD
-
-{::comment}
-
 <span class="icon-clock" /> 08:00 \\
 **Kafa + kiflice dobrodošlice** \\
 opušteni razgovor sa učesnicima
@@ -56,12 +52,15 @@ opušteni razgovor sa učesnicima
 {: .agenda-item}
 
 <span class="icon-clock" /> 08:20 \\
-**Predstavljanja** \\
-[***ITGirls***](http://itgirls.rs/) --- <span class="icon-user" /> [Nevena Sofranić](https://rs.linkedin.com/in/nevenasofranic) \\
-[***Rails Girls***](http://railsgirls.com/beograd) --- <span class="icon-user" /> [Bojana Milašinović](https://rs.linkedin.com/in/bojanamilasinovic) \\
-[***Open source dokumenta građana***](http://jfreesteel.devbase.net/) --- <span class="icon-user" /> [Goran Rakić](http://devbase.net/) \\
-[***OKU***](http://www.getoku.com/) --- <span class="icon-user" /> Sava Marinković
+**Predstavljanja** 
+
+[***SmartGames***](https://games.atamagai.com/) --- <span class="icon-user" /> [Borislav Blagojević](https://rs.linkedin.com/in/blagojevic) \\
+_Naučite kako da razmišljate izvan uobičajenih okvira uz digitalne verzije klasičnih enigmatskih glavolomki koje su nas naučile kako da razvijamo aplikacije za mobilne platforme._
 {: .agenda-item}
+ 
+[***Zamphyr***](https://zamphyr.com/) --- <span class="icon-user" /> [Marko Kažić](https://ru.linkedin.com/in/markokikinda) \\
+_Digital-first škola dizajnirana za učenje računarskih nauka, od A do Š i zašto je ovo ovo potpuno drugačiji koncept učenja od bilo čega do sad_
+{: .agenda-item} 
 
 <span class="icon-clock" /> COMING SOON! \\
 **Shout outs** \\
@@ -74,7 +73,6 @@ hoćete nešto da kažete, podelite, tražite, nudite...
 uz kofeinsku dopunu ako zatreba ;)
 {: .agenda-item}
 
-{:/comment}
 
 Potvrdite dolazak: <a href="http://www.meetup.com/HeapSpace/events/<%=@item[:event_meetup]%>/" data-event="<%=@item[:event_meetup]%>" class="mu-rsvp-btn invisible">RSVP</a>
 
