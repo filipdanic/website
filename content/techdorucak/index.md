@@ -42,36 +42,30 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Agenda
 
-<span class="icon-clock" /> 08:00 \\
-**Kafa + kiflice dobrodošlice** \\
-opušteni razgovor sa učesnicima
-{: .agenda-item}
+<div class="agenda" markdown="1">
+<%= render '/_line.html', :icon => 'fa-map-o' %>
 
-<span class="icon-clock" /> 08:15 \\
-**Pozdrav suncu ;)**
-{: .agenda-item}
+### 8:00 - 8:20
 
-<span class="icon-clock" /> 08:20 \\
-**Predstavljanja** 
+## Kafa + kiflice dobrodošlice
 
-[***SmartGames***](https://games.atamagai.com/) --- <span class="icon-user" /> [Borislav Blagojević](https://rs.linkedin.com/in/blagojevic) \\
-_Naučite kako da razmišljate izvan uobičajenih okvira uz digitalne verzije klasičnih enigmatskih glavolomki koje su nas naučile kako da razvijamo aplikacije za mobilne platforme._
-{: .agenda-item}
- 
-[***Zamphyr***](https://zamphyr.com/) --- <span class="icon-user" /> [Marko Kažić](https://ru.linkedin.com/in/markokikinda) \\
-_Digital-first škola dizajnirana za učenje računarskih nauka, od A do Š i zašto je ovo ovo potpuno drugačiji koncept učenja od bilo čega do sad_
-{: .agenda-item} 
+### 8:20
 
-<span class="icon-clock" /> COMING SOON! \\
-**Shout outs** \\
-hoćete nešto da kažete, podelite, tražite, nudite...
-15 sekundi je vaše - iskoristite ih!
-{: .agenda-item}
+## Predstavljanja
 
-<span class="icon-clock" /> 9:00 - 9:30 \\
-**Slobodna diskusija** \\
-uz kofeinsku dopunu ako zatreba ;)
-{: .agenda-item}
+[SmartGames](https://games.atamagai.com/) | [Borislav Blagojević](https://rs.linkedin.com/in/blagojevic)
+: Naučite kako da razmišljate izvan uobičajenih okvira uz digitalne verzije klasičnih enigmatskih glavolomki koje su nas naučile kako da razvijamo aplikacije za mobilne platforme.
+
+[Zamphyr](https://zamphyr.com/) | [Marko Kažić](https://ru.linkedin.com/in/markokikinda)
+: Digital-first škola dizajnirana za učenje računarskih nauka, od A do Š i zašto je ovo ovo potpuno drugačiji koncept učenja od bilo čega do sad.
+
+### 9:00 - 9:30
+
+## Slobodna diskusija
+
+Uz kofeinsku dopunu ako zatreba ;)
+
+</div>
 
 
 Potvrdite dolazak: <a href="http://www.meetup.com/HeapSpace/events/<%=@item[:event_meetup]%>/" data-event="<%=@item[:event_meetup]%>" class="mu-rsvp-btn invisible">RSVP</a>
