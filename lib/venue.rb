@@ -17,6 +17,8 @@ def venue_name(item)
 			return 'Parobrod'
 		when 'skc'
 			return 'Studentski kulturni centar'
+		when 'dom-omladine'
+			return 'Dom omladine'
 	end
 
 	return name
@@ -38,6 +40,8 @@ def venue_address(item)
 			return 'Kapetan Mišina 6a, Beograd'
 		when 'skc'
 			return 'Kralja Milana 48, Beograd'
+		when 'dom-omladine'
+			return 'Makedonska 22, Beograd'
 	end
 
 	return name
@@ -66,6 +70,9 @@ def venue_map_position(item)
 		when 'skc'
 			lat = '44.806252'
 			lng = '20.464046'
+		when 'dom-omladine'
+			lat = '44.8154752'
+			lng = '20.4628924'
 	end
 
 	return "data-map-lat=\"#{lat}\" data-map-lng=\"#{lng}\""
