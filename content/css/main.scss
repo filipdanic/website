@@ -460,20 +460,6 @@
 		}
 	}
 
-	.icalboxed {
-		bottom: -30px;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-		font-size: 12px;
-		color: white !important;
-		padding: 2px 0 !important;
-		background: transparent !important;
-		&:hover {
-			color: #00DADA !important;
-		}
-	}
-
 	.box {
 		border-radius: 3px;
 		border: solid 2px _palette(border);

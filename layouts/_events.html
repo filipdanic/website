@@ -3,7 +3,7 @@
 	<li>
 		<a href="<%=relative_path_to(it)%>" title="<%=h(it[:title])%>">
 			<% if it[:event_at] != nil %>
-			<div class="date">
+			<div class="date <%=h(it[:kind])%>">
 				<div class="day"><%=it[:event_at].day%></div>
 				<div class="month"><%=rsmonth(it[:event_at].month)%></div>
 			</div>
@@ -28,7 +28,7 @@
 		var today = ((new Date().getTime())/1000)+(60*60);
 		var targetdate = '<%= targetdate %>';
 		if (targetdate > today) {
-			$('.events_inverse .date').append('<a href="<%=relative_path_to(it)%>index.ics" download="<%=h(it[:title])%>.ics" class="icalboxed">Download iCal</a>');
+			$('.events_inverse .date.<%=h(it[:kind])%>').append('<a class="icalboxed" href="<%=relative_path_to(it)%>index.ics" download="<%=h(it[:title])%>.ics"><i class="fa fa-calendar fa-2x"></i><br />iCal</a>');
 		}
 	});
 	</script>
