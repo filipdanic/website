@@ -59,6 +59,7 @@ ul.events, article#main ul.events {
 				background-repeat: no-repeat;
 				text-align: center;
 				color: _palette(bg);
+				position: relative;
 
 				.day, .month {
 					position: absolute;
@@ -84,6 +85,26 @@ ul.events, article#main ul.events {
 					width: 100%;
 					background-position: center center;
 				}
+
+				a.icalboxed {
+					position: absolute;
+					top: 6px;
+			    bottom: 12px;
+			    right: 6px;
+			    left: 3px;
+			    opacity: 0;
+			    background: #FFF;
+			    z-index: 500;
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    border-radius: 6px;
+					color: #333 !important;
+					font-size: 0.8em;
+					&:hover {
+						opacity: 1;
+					}
+				}
+
 			}
 
 			.when-where {
