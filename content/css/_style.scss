@@ -407,10 +407,8 @@ $color-dirty: #eee;
 div.agenda {
 	background-image: linear-gradient(-45deg, $color-dirty 25%, transparent 25%, transparent 50%, $color-dirty 50%, $color-dirty 75%, transparent 75%, transparent);
 	background-size: 4px 4px;
-	padding: 0 40px 20px 40px;
+	padding: 0 40px 40px 40px;
 	@include border-radius(16px, 16px);
-	margin-bottom: 50px;
-
 	h3 {
 		&:before {
 			content: "\f017";
@@ -434,5 +432,43 @@ div.agenda {
 	}
 	dd, p {
 		margin: 10px 20px;
+	}
+}
+
+div.prijin {
+	margin-top:0;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 70px;
+	@include border-bottom-left-radius(16px);
+	@include border-bottom-right-radius(16px);
+	background-color: #fefefe;
+	border: 1px solid #ddd;
+	border-top: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	img {
+		margin: 20px;
+		float: left;
+	}
+	h2 {
+		letter-spacing: 0;
+		color: #666;
+		padding-top: 16px;
+	}
+	.wrn {
+		font-style: italic;
+		font-size: 0.9em;
+		line-height: 1.1em;
+	}
+	.mu {
+		text-align: center;
+		margin:0;
+		padding:0;
+		clear: both;
+	}
+	p {
+		margin-bottom: 0;
 	}
 }
