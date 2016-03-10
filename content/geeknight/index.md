@@ -8,7 +8,7 @@ event: 2016-03-31
 event_start: '18:30'
 event_end: '21:30'
 event_venue: dom-omladine
-event_meetup:
+event_meetup: 229280072
 view_map: true
 partner:
   - skc
@@ -28,13 +28,16 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
-{::comment}
+
 
 ## Agenda
 
 <div class="agenda" markdown="1">
 <%= render '/_line.html', :icon => 'fa-map-o' %>
 
+TBD
+
+{::comment}
 
 ### 18:30 - 18:35
 
@@ -68,18 +71,13 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)
 
-</div>
-
 {:/comment}
 
-## Prijava
+</div>
 
-Želite da podelite iskustvo ili okupite panel u vezi aktuelne tehnologije,
-preduzetništva, biznisa ili digitalnog stvaralaštva?
+
 
 <%= render '/prijave/_prijava_geeknight.html' %>
-
-Pišite nam na **<mailto:geeknight@heapspace.rs>**.
 
 ## Sponzorstvo?
 

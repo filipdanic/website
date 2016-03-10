@@ -8,7 +8,7 @@ event: 2016-04-06
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
-event_meetup: 
+event_meetup: 229282823
 view_map: true
 partner:
   - kiflice
@@ -67,16 +67,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-
-Potvrdite dolazak: <a href="http://www.meetup.com/HeapSpace/events/<%=@item[:event_meetup]%>/" data-event="<%=@item[:event_meetup]%>" class="mu-rsvp-btn invisible">RSVP</a>
-
-## Prijava
-
-Imate 5 minuta i želite da predstavite svoju ideju ili projekat?
-
 <%= render '/prijave/_prijava_tehdorucak.html' %>
-
-Pišite nam na **<mailto:dorucak@heapspace.rs>**.
 
 ## Sponzorstvo?
 

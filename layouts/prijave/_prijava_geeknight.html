@@ -1,4 +1,10 @@
+<% if !@item[:event_meetup].to_s.empty? %>
+  <%= render '/prijave/_prijava_posetilaca.html' %>
+<% end %>
+<h2>Podelite sa drugima</h2>
+<p>Želite da podelite iskustvo ili okupite panel u vezi aktuelne tehnologije, preduzetništva, biznisa ili digitalnog stvaralaštva?</p>
 <ul class="actions vertical"><li>
 <a class="typeform-share link button special2" href="https://heapspace.typeform.com/to/TncpLX" data-mode="1" target="_blank" style="width:100%">Prijava za GeekNight</a>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 </li></ul>
+<p>Pišite nam na <a href="mailto:geeknight@heapspace.rs">geeknight@heapspace.rs</a></p>
