@@ -59,6 +59,12 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 [Zamphyr](https://zamphyr.com/) | [Marko Kažić](https://ru.linkedin.com/in/markokikinda)
 : Digital-first škola dizajnirana za učenje računarskih nauka, od A do Š i zašto je ovo ovo potpuno drugačiji koncept učenja od bilo čega do sad.
 
+[Zvučna mapa Beograda](http://www.zvucnamapabeograda.rs/) | [Andrija Stojanović](https://rs.linkedin.com/in/andrija-stojanović-5921b986)
+: Da li znate kako zvuči Beograd? Sećanja, iskustava, stavovi i osećanja o mestima, ljudima i događajima koji su kroz pripovedenje svoje okoline postali deo identiteta jednog dela grada.
+
+[Linux u praksi](http://www.ubuntu-rs.org/) | [Ladislav Urošević](https://twitter.com/Uros_Vozdovac)
+: Ubuntu u privredi Srbije, SAP, integracija sa MS Exchange, primeri uspešnih hibridnih mreža u Srbiji.
+
 ### 9:00 - 9:30
 
 ## Slobodna diskusija
