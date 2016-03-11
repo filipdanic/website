@@ -19,7 +19,7 @@ partner:
 
 _Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
 sa ciljem brze razmene ideja i znanja među učesnicima, u prijatnoj atmosferi prve
-jutarnje kafe. Tri predavanja od 5 minuta, 2 minuta za pitanja; i networking
+jutarnje kafe. Četiri predavanja od 5 minuta, 2 minuta za pitanja; i networking
 dopunjen kiflicama je sjajan način da se započne dan.
 {: .focus}
 
