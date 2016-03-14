@@ -11,7 +11,7 @@ event_venue: dom-omladine
 event_meetup: 229280072
 view_map: true
 partner:
-  - skc
+  - dob
   - zaječarsko
   - bigpizza
 ---
