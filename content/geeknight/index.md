@@ -28,50 +28,44 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
-
-
 ## Agenda
 
 <div class="agenda" markdown="1">
 <%= render '/_line.html', :icon => 'fa-map-o' %>
 
-TBD
-
-{::comment}
-
 ### 18:30 - 18:35
 
 ## Uvod i pozdrav
 
-
 ### 18:35 - 19:15
 
-## Offline web aplikacije
+## Alati za ubrzavanje razvoja: mogućnosti i ograničenja
 
-[Slobodan Stojanović](https://slobodan.me/) | ([CloudHorizon](https://twitter.com/CloudHorizon))
-: Prezentacije odgovora na pitanje - zašto bi ikome bile potrebne offline web aplikacije - uz kratak osvrt tehnologiju koja nam daje mogućnost da sajtovi i aplikacije rade i bez interneta. Service Workers, App Cache i client side storage (localStorage, IndexedDB i WebSQL).
+[Duško Vesin](https://www.linkedin.com/in/duskovesin) | [drytools](http://drytools.co/)
+: Zašto je bitno ubrzati development proces? Koji su sve benefiti korišćenja alata
+  za ubrzavanje razvoja? Kratak overview alata koje developeri koriste da
+  ubrzaju razvoj sa pregledom prednosti i mana. Kratak demo drytools alata za ubrzavanje.
 
 ### 19:15 - 19:55
 
-## Rad između developera i dizajnera
+## Upoznaj CodPen.io
 
-[Nenad Ivanović](http://www.nenadivanovic.com/) | (Behance)
-: Saradnja između developera i dizajnera je danas neophodna da bi se dobio kvalitetan UX. Ovo je priča o tome.
+[Miloš Rujević](http://www.linkedin.com/in/itmilos) | [CallidusCloud](http://www.calliduscloud.com)
+: CodePen je igralište za svakog front-end developera. Saznajte kako da
+  nadogradite vaše front-end veštine ili podelite svoje znanje
+  sa drugima uz pomoć CodePen-a.
 
 
 ### 19:55 - 20:35
 
-## Kako popraviti robotiće
-
-[Igor Spasić](https://github.com/igorspasic)
-: Kratka plovidba od brute-force algoritma do optimizacije, u Kotlinu (zašto ne:) ili "kako sam napisao program koji pronalazi rešenje za igricu".
-
+## TBA
 
 ### 20:35 - 21:30
 
-## Druženje uz [Zaječarsko pivo](http://zajecarskopivo.com/) ;)
+## Druženje
 
-{:/comment}
+Uz [Zaječarsko pivo](http://zajecarskopivo.com/) i [BigPizzu](http://bigpizza.rs).
+
 
 </div>
 
