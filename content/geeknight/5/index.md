@@ -10,13 +10,20 @@ event_end: '21:30'
 event_venue: skc
 event_meetup: 228451616
 view_map: true
+tags:
+  - javascript
+  - kotlin
+  - design
+  - algoritam
 partner:
   - skc
   - zaječarsko
   - bigpizza
 ---
 
-## GeekNight 5
+## <%= h(@item[:title]) %>
+
+### <%= h(@item[:subtitle]) %>
 
 <%= render '/_eventbox.html' %>
 

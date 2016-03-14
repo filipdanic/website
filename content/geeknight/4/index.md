@@ -20,7 +20,9 @@ partner:
   - zaječarsko
 ---
 
-## GeekNight 4
+## <%= h(@item[:title]) %>
+
+### <%= h(@item[:subtitle]) %>
 
 <%= render '/_eventbox.html' %>
 
