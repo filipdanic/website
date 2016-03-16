@@ -48,7 +48,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ### 19:15 - 19:55
 
-## Upoznaj CodPen.io
+## Upoznaj CodePen.io
 
 [Miloš Rujević](http://www.linkedin.com/in/itmilos) | [CallidusCloud](http://www.calliduscloud.com)
 : CodePen je igralište za svakog front-end developera. Saznajte kako da
