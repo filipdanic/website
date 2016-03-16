@@ -58,7 +58,12 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ### 19:55 - 20:35
 
-## TBA
+## Team-Centered Design
+
+[Bojan Đuričić](http://toorshia.com)
+: Centralna figura dizajna jeste korisnik. Ipak, u procesu pretvaranja ideje u proizvod i kolaboraciji sa timom,
+  dizajner će se susresti sa bar još 2 persone - manager/stakeholder sa jedne, developer sa druge.
+  Kako ovo utiče na design proces i deliverable? Koji su izazovi i kako ih prevazilazimo?
 
 ### 20:35 - 21:30
 
