@@ -458,8 +458,8 @@ div.agenda {
 
 div.prijin {
 	margin-top:0;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 70px;
 	@include border-bottom-left-radius(16px);
 	@include border-bottom-right-radius(16px);
@@ -470,7 +470,7 @@ div.prijin {
 	padding-right: 20px;
 	padding-bottom: 30px;
 	img {
-		margin: 0px;
+		margin: 20px;
 		float: left;
 	}
 	h2 {
@@ -507,5 +507,10 @@ div.prijin {
 	}
 	.logout-container {
 		text-align: center !important;
+	}
+	.mimg {
+		img {
+			margin: 0 !important;
+		}
 	}
 }
