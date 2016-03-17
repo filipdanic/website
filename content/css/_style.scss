@@ -470,7 +470,7 @@ div.prijin {
 	padding-right: 20px;
 	padding-bottom: 30px;
 	img {
-		margin: 20px;
+		margin: 0px;
 		float: left;
 	}
 	h2 {
@@ -491,5 +491,21 @@ div.prijin {
 	}
 	p {
 		margin-bottom: 0;
+	}
+}
+
+.mu-widget {
+	.interact {
+    background: transparent;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+	}
+	.actns {
+		float: none;
+	}
+	.logout-container {
+		text-align: center;
 	}
 }
