@@ -469,6 +469,63 @@ div.prijin {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 30px;
+	.mu-widget {
+		width: 100% !important;
+		.tail {
+			display: none !important;
+		}
+		.yep {
+			.in, .waiting {
+				float: left !important;
+				padding: 0 1em !important;
+			}
+		}
+		.mu-rsvp-btn {
+			img {
+				margin-left: 5px !important;
+			}
+		}
+		a.mu-rsvp-btn.active {
+			&:after {
+				content: "\f078";
+		    font-family: "FontAwesome";
+		    top: 15px;
+		    position: relative;
+		    font-size: 1em;
+		    color: #C00;
+			}
+		}
+		.mu-ev-details {
+			-moz-box-shadow: 0 !important;
+	    -webkit-box-shadow: 0 !important;
+	    box-shadow: 0 !important;
+	    width: 0 !important;
+			border: 0 !important;
+			padding: 1em !important;
+			font-size: 14px !important;
+			font-family: inherit !important;
+		}
+		.interact {
+	    background: transparent !important;
+	    clear: both;
+	    margin: 0 !important;
+	    padding: 0 !important;
+	    display: inline-block;
+		}
+		.actns {
+			float: left !important;
+    	margin-left: 10px !important;
+		}
+		.logout-container {
+			text-align: left !important;
+		}
+		.mimg {
+			img {
+				margin: 0 !important;
+			}
+		}
+	}
+
 	img {
 		margin: 20px;
 		float: left;
@@ -491,26 +548,5 @@ div.prijin {
 	}
 	p {
 		margin-bottom: 0;
-	}
-}
-
-.mu-widget {
-	.interact {
-    background: transparent !important;
-    clear: both;
-    margin: 0 !important;
-    padding: 0 !important;
-    display: inline-block;
-	}
-	.actns {
-		float: none !important;
-	}
-	.logout-container {
-		text-align: center !important;
-	}
-	.mimg {
-		img {
-			margin: 0 !important;
-		}
 	}
 }
