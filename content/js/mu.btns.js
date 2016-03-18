@@ -1003,7 +1003,8 @@ window.mu = window.mu || {};
            var isactive = 'active';
            showRsvp(e.data().event, e.data().cnt);
          }
-         var img = id ? "http://www.meetup.com/t/img/api/rbtn/"+id+"/rsvp_btn.png" : "/img/api/rsvp_btn.png";
+         // var img = id ? "http://www.meetup.com/t/img/api/rbtn/"+id+"/rsvp_btn.png" : "/img/api/rsvp_btn.png";
+         var img = "http://heapspace.rs/images/rsvp_btn.png";
          this.empty().html('<img src="'+img+'"/>').addClass(isactive+' mu-a btn');
          return this;
        };
