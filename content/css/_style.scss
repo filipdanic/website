@@ -474,7 +474,6 @@ div.prijin {
 		text-align: left !important;
 		.prompt {
 			position: relative !important;
-			display: block !important;
 		}
 		.tail {
 			display: none !important;
@@ -487,7 +486,7 @@ div.prijin {
 		}
 		.mu-rsvp-btn {
 			img {
-				margin-left: 5px !important;
+				margin-left: 8px !important;
 			}
 		}
 		a.mu-rsvp-btn.active {
@@ -547,10 +546,11 @@ div.prijin {
 		font-style: italic;
 		font-size: 0.9em;
 		line-height: 1.1em;
+		margin-left: 1em;
 	}
 	.mu {
 		text-align: center;
-		margin:0;
+		margin: 0 0.6em;
 		padding:0;
 		clear: both;
 	}
