@@ -245,7 +245,7 @@ window.mu = window.mu || {};
               , '.mu-widget .tip {'
               , '  position:absolute; width:0;height:0;border-left:10px solid transparent;'
               , '  border-right:10px solid transparent;border-top:10px solid transparent;'
-              , '  border-bottom:10px solid #fff; margin-top:-6px;margin-left:-10px; z-index:99999; }'
+              , '  border-bottom:10px solid #fff; margin-top:-6px;margin-left:-10px; z-index:99999;}'
               , '.mu-widget .mu-ev-details {'
               , '  margin-top:.3em; margin-left:-5px; background:#fff;overflow:hidden;'
               , '  font-family:verdana, sans-serif;padding:.5em; color:#333; font-size:12px; -webkit-border-radius: 5px;'
@@ -287,6 +287,7 @@ window.mu = window.mu || {};
          return ['<a href="javascript:void(0)" class="btn'+ (cls?' '+cls:'')+'">',txt,'</a>'].join('');
      }
      , box: function(content) {
+         $jq("#rsvp-spinner").hide();
          return ['<div class="mu-ev-details">'
                  , content
                  , '<div class="logout-container"><a href="javascript:void(0)" class="mu-logout">'
@@ -1005,7 +1006,7 @@ window.mu = window.mu || {};
          }
          // var img = id ? "http://www.meetup.com/t/img/api/rbtn/"+id+"/rsvp_btn.png" : "/img/api/rsvp_btn.png";
          var img = "http://heapspace.rs/images/rsvp_btn.png";
-         this.empty().html('<img src="'+img+'"/>').addClass(isactive+' mu-a btn');
+         this.empty().html('<img src="'+img+'"/><i id="rsvp-spinner" class="fa fa-spinner fa-spin fa-2x"></i>').addClass(isactive+' mu-a btn');
          return this;
        };
 
@@ -1155,6 +1156,7 @@ window.mu = window.mu || {};
                   btn.parent().find("div.prompt").hide();
                   btn.removeClass('active');
                 } else {
+                  $jq("#rsvp-spinner").show();
                   btn.addClass('active');
                   if(auth) {
                     showRsvp(btn.data().event, btn.data().cnt);
@@ -1179,6 +1181,7 @@ window.mu = window.mu || {};
         function (ev) {
           if (GlobalVars.bubble && GlobalVars.bubble.length > 0 && !$jq.contains(GlobalVars.bubble[0], ev.target)) {
             GlobalVars.bubble.hide();
+            $jq(".mu-rsvp-btn.active").removeClass('active');
             GlobalVars.bubble = undefined;
           }
         }
