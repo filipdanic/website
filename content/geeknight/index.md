@@ -14,7 +14,10 @@ partner:
   - dob
   - zaječarsko
   - bigpizza
----
+sponsor:
+  - comtrade
+  - sevenbridges
+----------------
 
 _GeekNight_ se održava jednom mesečno - svakog _poslednjeg četvrtka_ u mesecu -
 i okuplja nas oko aktuelnih sadržaja. Predavanja, paneli, radionice,
@@ -48,6 +51,14 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ### 19:15 - 19:55
 
+## Godot: Game Engine
+
+[Vedran i Miloš] | [Comtrade](http://www.comtrade.com/)
+: Kratka priča o "malom" game engine-u kog smo čekali. Šta nudi, šta mu još nedostaje 
+  i kako se igre mogu razvijati potpuno "free" (as in freedom).
+
+### 19:55 - 20:15
+
 ## Upoznaj CodePen.io
 
 [Miloš Rujević](http://www.linkedin.com/in/itmilos) | [CallidusCloud](http://www.calliduscloud.com)
@@ -55,8 +66,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
   nadogradite vaše front-end veštine ili podelite svoje znanje
   sa drugima uz pomoć CodePen-a.
 
-
-### 19:55 - 20:35
+### 20:15 - 20:45
 
 ## Team-Centered Design
 
@@ -65,7 +75,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
   dizajner će se susresti sa bar još 2 persone - manager/stakeholder sa jedne, developer sa druge.
   Kako ovo utiče na design proces i deliverable? Koji su izazovi i kako ih prevazilazimo?
 
-### 20:35 - 21:30
+### 20:45 - 21:30
 
 ## Druženje
 
