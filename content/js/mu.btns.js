@@ -71,7 +71,7 @@ window.mu = window.mu || {};
     *  C('my-template'). Templates with place holders are referenced by arg index
     *  C('my-template', 'arg1', 'arg2') */
    , C = (function() {
-       var defaultlang = 'en'
+       var defaultlang = 'sr'
        /** tmpl templates may have place holders denoted as {0} ... {n}. */
        , tmpl = function(txt) {
            return function() {
@@ -118,6 +118,59 @@ window.mu = window.mu || {};
            , 'rsvps-full': 'RSVPS FULL'
            , 'upto-on-mu': 'See what else this group is up to on Meetup &rarr;'
            , 'waitlisted':'On the waitlist'
+           , 'attending':'attending'
+           , 'attendend':'attended'
+           , 'monday':'Monday'
+           , 'tuesday':'Tuesday'
+           , 'wednesday':'Wednesday'
+           , 'thursday':'Thursday'
+           , 'friday':'Friday'
+           , 'saturday':'Saturday'
+           , 'sunday':'Sunday'
+         },
+         'sr' : {
+           'awaitingapproval':'Vaš zahtev čeka odobrenje.<br/>{0}'
+           , 'cancel-create-profile-btn':'Možda kasnije'
+           , 'create-profile-btn': 'Kreirajte profil'
+           , 'create-profile-validation-fail': 'Odgovorite na crvena pitanja'
+           , 'did-go':'Drago nam je sto ste nas posetili.'
+           , 'evt-not-visible': 'Ovaj Meetup je privatnog tipa.'
+           , 'group-join-closed': 'Ovaj Meetup je zatvoren za nove članove'
+           , 'invite-explained': 'Morate biti pozvani od strane organizatora ovog Meetup-a. {0}'
+           , 'invite-code' : 'Kod pozivnice'
+           , 'join-btn': '<strong>Prudruži se</strong> ovoj grupi za RSVP'
+           , 'logout': 'Odjava sa Meetup naloga'
+           , 'logging-out': 'Odjava sa Meetup naloga u toku...'
+           , 'no-waitlist': 'Nema liste za čekanje'
+           , 'paymentreq':'RSVP i platite na Meetup &rarr;'
+           , 'profile-intro':'Predstavite se'
+           , 'profile-invalid-answer':'Neispravan odgovor'
+           , 'profile-invalid-url': 'Neispravan url'
+           , 'profile-invalid-inv-code': 'Neispravan kod pozivnice'
+           , 'profile-invalid-general':'Nije uspelo kreiranje profila grupe'
+           , 'requires-photo': 'Ova grupa zahteva fotografiju. Pošaljite jednu na {0}'
+           , 'rsvp-question' : 'Dolazite?'
+           , 'rsvp-yes-btn':'Da'
+           , 'rsvp-no-btn': 'Ne'
+           , 'rsvp-switch-to-no-btn': 'Promeni RSVP'
+           , 'rsvp-switch-to-yes-btn': 'Promeni RSVP'
+           , 'rsvp-want-to-wait-btn': 'Stavi me na listu za čekanje'
+           , 'rsvpd-no': "Ne dolazim"
+           , 'rsvpd-yes': "Dolazim"
+           , 'rsvp-btn': '<strong>RSVP</strong> with Meetup'
+           , 'rsvps-open-at': 'RSVPS otvoreno<br/> {0}'
+           , 'rsvps-closed': 'RSVPS Zatvoreno'
+           , 'rsvps-full': 'RSVPS Popunjeno'
+           , 'upto-on-mu': 'See what else this group is up to on Meetup &rarr;'
+           , 'waitlisted':'Na listi za čekanje'
+           , 'attending':'prijavljenih'
+           , 'monday':'ponedeljak'
+           , 'tuesday':'utorak'
+           , 'wednesday':'sreda'
+           , 'thursday':'četvrtak'
+           , 'friday':'petak'
+           , 'saturday':'subota'
+           , 'sunday':'nedelja'
          }
        };
        /** takes var args. first arg assumed to be name of copy */
@@ -146,7 +199,7 @@ window.mu = window.mu || {};
      }
      // on Mon Jan 2 @ 6pm
      , date: function(time) {
-       var DAYS = {0:'Sunday',1:'Monday',2:'Tuesday',3:'Wednesday',4:'Thursday',5:'Friday',6:'Saturday'}
+       var DAYS = {0:C('sunday'),1:C('monday'),2:C('tuesday'),3:C('wednesday'),4:C('thursday'),5:C('friday'),6:C('saturday')}
        , MON = {0:'Jan',1:'Feb',2:'Mar',3:'Apr',4:'May', 5:'June', 6:'July',7:'Aug',8:'Sep',9:'Oct',10:'Nov',11:'Dec'}
        , d = new Date(time)
        , hrs = function(h) { return h > 12 ? h - 12 : h; }
@@ -278,10 +331,10 @@ window.mu = window.mu || {};
               , '</div> '].join('') : '';
      }
      , attending: function(c) {
-         return c ? ['<span class="n">', c ,'</span> attending'].join('') : '';
+         return c ? [''+C('attending')+': <span class="n">', c ,'</span>'].join('') : '';
      }
      , attended: function(c) {
-         return c ? ['<span class="n">', c, '</span> attended'].join('') : '';
+         return c ? [''+C('attended')+': <span class="n">', c, '</span>'].join('') : '';
      }
      , btn: function(txt,cls) {
          return ['<a href="javascript:void(0)" class="btn'+ (cls?' '+cls:'')+'">',txt,'</a>'].join('');
@@ -947,7 +1000,7 @@ window.mu = window.mu || {};
                       GlobalVars.bubble = undefined;
                     }
                     GlobalVars.bubble = $jq("#rsvp-" + event_id + "-" + cnt + " .prompt").empty().html(
-                      behave(markup)).show(function(){
+                      behave(markup)).fadeIn('slow', function(){
                         cli.rsvps(event_id, function(res) {
                           var f = res.filter(function(r){ return r.response === 'yes'; })
                           , l = Math.min(f.length, 5), pics = [], pic = function(i) {
