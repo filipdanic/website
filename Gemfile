@@ -23,3 +23,4 @@ gem 'nanoc-external',	# :external filter
 gem 'guard-nanoc'
 gem 's3_website'
 gem 'icalendar'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

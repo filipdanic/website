@@ -491,15 +491,12 @@ div.prijin {
 				margin-left: 8px !important;
 			}
 		}
-		a.mu-rsvp-btn.active {
-			&:after {
-				content: "\f078";
-		    font-family: "FontAwesome";
-		    top: 15px;
-		    position: relative;
-		    font-size: 1em;
-		    color: #C00;
-			}
+		#rsvp-spinner {
+			margin-top: 21px;
+			color: #ccc !important;
+			-moz-text-shadow: none !important;
+	    -webkit-text-shadow: none !important;
+	    text-shadow: none !important;
 		}
 		.mu-ev-details {
 			-moz-box-shadow: none !important;
