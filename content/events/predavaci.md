@@ -15,13 +15,13 @@ Tako oni koji nisu upoznati sa materijom mogu da dobiju kratak uvod
 i posle značajno lakše da prate prezentaciju.
 
 
-## Šta, a ne kako
+## Šta i Zašto, a ne Kako
 
 Naročito u prezentacijama tehnološke sadržine, dobijamo poriv
 da objasnimo KAKO smo nešto uradili. Međutim, to retko kada
 ima vrednost sa slušaoce. Teško je da možemo prenesemo sve osobenosti
-rešenja u kratkom roku. Umesto toga, objasnite ŠTA ste uradili, ŠTA
-se može uraditi, ŠTA je bolje ili lošije...
+rešenja u kratkom roku. Umesto toga, objasnite ŠTA i ZAŠTO ste uradili, ŠTA
+se može uraditi, ZAŠTO je bolje ili lošije...
 
 
 ## Live coding
