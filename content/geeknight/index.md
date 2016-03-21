@@ -53,7 +53,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Godot: Game Engine
 
-[Vedran i Miloš] | [Comtrade](http://www.comtrade.com/)
+[Vedran Vujinović](https://rs.linkedin.com/in/vedran-vujinovic-b67421b4) i [Miloš Smiljanić](https://rs.linkedin.com/in/smiki) | [Comtrade](http://www.comtrade.com/)
 : Kratka priča o "malom" game engine-u kog smo čekali. Šta nudi, šta mu još nedostaje 
   i kako se igre mogu razvijati potpuno "free" (as in freedom).
 
