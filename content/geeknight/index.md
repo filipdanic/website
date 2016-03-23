@@ -31,6 +31,8 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
+Pored redovnog programa, podelićemo i tri karte za nastupajuću [Agile konferenciju](http://www.agile-serbia.rs/agile-conference-april-2016)!
+
 ## Agenda
 
 <div class="agenda" markdown="1">
