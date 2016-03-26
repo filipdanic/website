@@ -3,7 +3,6 @@ nextevent = get_next_event()
 if (nextevent != nil && !nextevent[:event].to_s.empty?)
 	timestring = nextevent[:event].to_s + ' ' + nextevent[:event_start].to_s
 	targetdate = Time.parse(timestring).to_i
-end
 %>
 <div class="flipcount">
 	<div class="flipwrap" data-link="<%=relative_path_to(nextevent)%>">
@@ -30,3 +29,6 @@ $(function () {
 	})
 });
 </script>
+<%
+end
+%>
