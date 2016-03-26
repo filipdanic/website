@@ -1,27 +1,32 @@
 <%
 nextevent = get_next_event()
-if nextevent != nil
+if (nextevent != nil && !nextevent[:event].to_s.empty?)
 	timestring = nextevent[:event].to_s + ' ' + nextevent[:event_start].to_s
 	targetdate = Time.parse(timestring).to_i
-	if nextevent[:event] != nil && (targetdate > (Time.now.to_i + (60 * 60 * 24))) && ( targetdate < (Time.now.to_i + (7 * 60 * 60 * 24)))
-	%>
-	<div class="flipcount">
-		<div class="flipwrap" data-link="<%=relative_path_to(nextevent)%>">
-			<div class="flipevent">
-				<%= nextevent[:title] %>
-			</div>
-			<div class="clock"></div>
+end
+%>
+<div class="flipcount">
+	<div class="flipwrap" data-link="<%=relative_path_to(nextevent)%>">
+		<div class="flipevent">
+			<%= nextevent[:title] %>
 		</div>
+		<div class="clock"></div>
 	</div>
-	<script type="text/javascript">
-	$(function () {
-		var today = ((new Date().getTime())/1000)+(60*60);
-		var targetdate = '<%= targetdate %>';
-		$('.clock').FlipClock((targetdate - today), {
-			clockFace: 'DailyCounter',
-			countdown: true
-		})
-	});
-	</script>
-<% end
-end %>
+</div>
+<script type="text/javascript">
+$(function () {
+	var today = ((new Date().getTime())/1000)+(60*60);
+	var oneday = ((new Date().getTime())/1000)+(60*60)+(60*60*24);
+	var sevendays = ((new Date().getTime())/1000)+(60*60)+(7*60*60*24);
+	var targetdate = '<%= targetdate %>';
+	if ((targetdate > oneday) && (targetdate < sevendays)) {
+		$('.clock').show();
+	} else {
+		$('.clock').hide();
+	}
+	$('.clock').FlipClock((targetdate - today), {
+		clockFace: 'DailyCounter',
+		countdown: true
+	})
+});
+</script>
