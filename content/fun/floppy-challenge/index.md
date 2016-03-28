@@ -12,10 +12,10 @@ sa svojim najboljim flopijima!
 ## Istorija
 
 Jako davno, lep mladić po imenu Bil je slučajno bacio flopi disk za potrebe
-reklamiranja svoj mikro kompanije:
+reklamiranja svoje mikro kompanije:
 
 ![](bill.jpg)
-{: .image}
+{: .align-center style="height: 325px"}
 
 Ovaj trenutak je bio prekretnica u svetu tehnologije. Svi su poželeli da bacaju
 taj famozni flopi disk! Slučajno je dolazio sa softverom kompanije, pa su neki
