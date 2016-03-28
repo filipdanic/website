@@ -11,7 +11,7 @@ sa svojim najboljim flopijima!
 
 ## Istorija
 
-Jako davno, lep mladić po imenu Bil je slučajno bacio flopi disk za potrebe
+Jako davno, lep mladić po imenu Bil je bacio flopi disk za potrebe
 reklamiranja svoje mikro kompanije:
 
 ![](bill.jpg)
@@ -20,7 +20,7 @@ reklamiranja svoje mikro kompanije:
 Ovaj trenutak je bio prekretnica u svetu tehnologije. Svi su poželeli da bacaju
 taj famozni flopi disk! Slučajno je dolazio sa softverom kompanije, pa su neki
 diskovi i završili u kompjuterima. U svakom slučaju, istorija bacanja flopi
-disketa je započela!
+disketa je počela!
 
 
 ## Pravila
@@ -31,9 +31,13 @@ disketa je započela!
 
 3. Dolaze u obzir samo nemodifikovani 3.5'' flopiji od 1.44 MB.
 
-4. Tim sme da sadrži samo 3.5 osoba.
+4. Tim sme da sadrži najviše 3.5 osoba.
 
 5. Čik nađite flopije :)
+
+6. Floppy se baca desnom rukom.
+
+7. Minimalno odstojanje cilja je 1.44 metara.
 
 ![](disks.gif)
 {: .image .fit}
