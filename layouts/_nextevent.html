@@ -14,7 +14,7 @@ if (nextevent != nil && !nextevent[:event].to_s.empty?)
 </div>
 <script type="text/javascript">
 $(function () {
-	var today = ((new Date().getTime())/1000)+(60*60);
+	var today = ((new Date().getTime())/1000)+(60*60*2);
 	var oneday = ((new Date().getTime())/1000)+(60*60)+(60*60*24);
 	var sevendays = ((new Date().getTime())/1000)+(60*60)+(7*60*60*24);
 	var targetdate = '<%= targetdate %>';
