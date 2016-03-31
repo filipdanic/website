@@ -75,7 +75,7 @@ Pored redovnog programa, podelićemo i tri karte za nastupajuću [Agile konferen
 ## Dve kocke stresa molim
 
 [Bojan Đuričić](http://toorshia.com)
-: Kao sto znamo IT je trenutno naj industrija u mnogo aspekata. Najdinamičnija, 
+: Kao što znamo IT je trenutno naj industrija u mnogo aspekata. Najdinamičnija, 
   najprogresivnija, najbolje plate, najbrži ciklusi razvoja, najveci deficit u 
   dostupnim resursima, najludji rokovi. Pritisak, frka, ludilo, idemooo. 
 
