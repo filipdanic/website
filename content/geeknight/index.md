@@ -33,6 +33,8 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 Pored redovnog programa, podelićemo i tri karte za nastupajuću [Agile konferenciju](http://www.agile-serbia.rs/agile-conference-april-2016)!
 
+<%= render '/_you_tube.html', ytid: '6VhhMbAUI7g' %>
+
 ## Agenda
 
 <div class="agenda" markdown="1">
@@ -56,7 +58,7 @@ Pored redovnog programa, podelićemo i tri karte za nastupajuću [Agile konferen
 ## Godot: Game Engine
 
 [Vedran Vujinović](https://rs.linkedin.com/in/vedran-vujinovic-b67421b4) i [Miloš Smiljanić](https://rs.linkedin.com/in/smiki) | [Comtrade](http://www.comtrade.com/)
-: Kratka priča o "malom" game engine-u kog smo čekali. Šta nudi, šta mu još nedostaje 
+: Kratka priča o "malom" game engine-u kog smo čekali. Šta nudi, šta mu još nedostaje
   i kako se igre mogu razvijati potpuno "free" (as in freedom).
 
 ### 19:55 - 20:15
