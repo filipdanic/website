@@ -72,12 +72,12 @@ Pored redovnog programa, podelićemo i tri karte za nastupajuću [Agile konferen
 
 ### 20:15 - 20:45
 
-## Team-Centered Design
+## Dve kocke stresa molim
 
 [Bojan Đuričić](http://toorshia.com)
-: Centralna figura dizajna jeste korisnik. Ipak, u procesu pretvaranja ideje u proizvod i kolaboraciji sa timom,
-  dizajner će se susresti sa bar još 2 persone - manager/stakeholder sa jedne, developer sa druge.
-  Kako ovo utiče na design proces i deliverable? Koji su izazovi i kako ih prevazilazimo?
+: Kao sto znamo IT je trenutno naj industrija u mnogo aspekata. Najdinamičnija, 
+  najprogresivnija, najbolje plate, najbrži ciklusi razvoja, najveci deficit u 
+  dostupnim resursima, najludji rokovi. Pritisak, frka, ludilo, idemooo. 
 
 ### 20:45 - 21:30
 
