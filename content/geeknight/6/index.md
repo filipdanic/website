@@ -1,14 +1,14 @@
 ---
-title: GeekNight
-title_img: geek-night.png
-subtitle:
+title: GeekNight 6
+title_img: ../geek-night.png
+subtitle: Alati za ubrzavanje razvoja | Godot - Game Engine | Upoznaj CodePen | Dve kocke stresa molim
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
-event:
+event: 2016-03-31
 event_start: '18:30'
 event_end: '21:30'
 event_venue: dom-omladine
-event_meetup:
+event_meetup: 229280072
 view_map: true
 partner:
   - dob
@@ -17,21 +17,15 @@ partner:
 sponsor:
   - comtrade
   - sevenbridges
-----------------
+---
 
-_GeekNight_ se održava jednom mesečno - svakog _poslednjeg četvrtka_ u mesecu -
-i okuplja nas oko aktuelnih sadržaja. Predavanja, paneli, radionice,
-ali i više polusatnih prezentacija: sva imaju za cilj konkretniju razmenu znanja
-i iskustava.
-{: .focus}
+## <%= h(@item[:title]) %>
+
+#### <%= h(@item[:subtitle]) %>
 
 <%= render '/_eventbox.html' %>
 
-Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
-softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
-delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
-
-{::comment}
+<%= render '/_you_tube.html', ytid: '6VhhMbAUI7g' %>
 
 ## Agenda
 
@@ -83,19 +77,9 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 Uz [Zaječarsko pivo](http://zajecarskopivo.com/) i [BigPizzu](http://bigpizza.rs).
 
-
 </div>
 
-{:/comment}
 
+## Fotke
 
-<%= render '/prijave/_prijava_geeknight.html' %>
-
-## Sponzorstvo?
-
-Ukoliko želite da budete sponzor javite nam se na **<mailto:geeknight@heapspace.rs>**.
-
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'talk',  :limitnumber => 10 %>
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157666078076060', rows: 2 } ] %>
