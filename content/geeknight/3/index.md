@@ -1,5 +1,5 @@
 ---
-title: GeekNight 6
+title: GeekNight 3
 title_img: ../geek-night.png
 subtitle: Alati za ubrzavanje razvoja | Godot - Game Engine | Upoznaj CodePen | Dve kocke stresa molim
 img: /images/hsbck_geeknight.jpg

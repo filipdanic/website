@@ -1,5 +1,5 @@
 ---
-title: GeekNight 5
+title: GeekNight 2
 title_img: ../geek-night.png
 subtitle: Offline web app | Designers <3 Developers | Brutal Force & Kotlin
 img: /images/hsbck_geeknight.jpg
