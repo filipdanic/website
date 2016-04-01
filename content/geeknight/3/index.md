@@ -82,4 +82,4 @@ Uz [Zaječarsko pivo](http://zajecarskopivo.com/) i [BigPizzu](http://bigpizza.r
 
 ## Fotke
 
-<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157666078076060', rows: 2 } ] %>
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157666495480032', rows: 2 } ] %>
