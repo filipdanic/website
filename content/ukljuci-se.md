@@ -24,7 +24,7 @@ Na kraju, pronađi se u profilima/rolama koji nam trebaju. Nešto niže na stran
 naći opise koji nam trebaju. Odaberi jednu ili više koju možeš
 da preuzmeš. I u čemu bi se najviše zabavaljao!
 
-## Tri koraka do HeapSpace
+## Dva-Tri koraka do HeapSpace
 
 Prvi korak je najteži:) Pronađi se i javi se. Onda možemo zajedno da krenemo
 dalje. Nećeš biti sam, tu smo da pomognemo; ali ćeš već imati dosta toga
@@ -34,49 +34,4 @@ kako i šta radimo, ali da i sam/a razumeš kako najbolje de deluješ kroz zajed
 Drugi korak nije obavezan: "praksa". Nakon uključenja, možemo ti pružiti
 zvaničnu praksu - ukoliko ti je ona potrebna. Trajanje i format određuješ sam.
 
-"Zvanični" rad u HeapSpace je poslednji korak. Možeš se zaposliti i biti plaćen
-za svoje angažovanje. Imamo dva oblika plaćene saradnje: po projektu; ili
-uobičajeno, na neodređeno vreme.
-
-Kako ćeš, kojom brzinom i na koji način ćeš se priključiti - zavisi isključivo
-od tebe samog.
-
-## Role
-
-### Fundraiser
-
-Biznis lice HeapSpace. Čarobnjak informacijama i vešt pregovarač.
-Neko ko može da jasno predstavi naše vrednosti i efikasno usmeri pažnju
-ka ključnim planovima. Vodio bi komunkaciju sa organizacijama i firmama,
-i aktivno učestvovao u izradi velikih i malih planova.
-
-### Community manager
-
-Nasmejano lice koje radi sa zajednicom. Rad na svim događajima, druženje sa
-zanimljivim ljudima iz različitih oblasti. Promocija zajednice kroz mreže,
-ozbiljne razgovore, ali i čavrljanja. Pojavljivanje na drugim okupljanjima.
-Rad sa drugim domaćim zajednicama.
-
-### Content maker
-
-Pravljenje sadržaja. Pisanje tekstova. Uobličavanje programa projekata.
-Neko ko može da spoji apstrakciju sa jednostavnošću. Zadatak, koji traži
-marljivost i posvećenost, a donosi izuzetnu važnost.
-
-### SoundMaister
-
-Produkcija podkasta. Seckanje, lepljenje, sklapanje, džinglovi i odjavne špice.
-Neko ko može da se uhvati u koštac sa zvukom.
-
-## Javite se!
-
-Prijavite se na <mailto:info@heapspace.rs>. Napišite nešto o sebi i pošaljite smajlija :)
-
-<!--
-### WebDev ninja
-
-Održavanje i nadogradnja sajta. Jednostavan, ali važan zadatak. Ne samo što
-je potrebno da se barata sa HTML, CSS, SASS, Ruby-jem, već treba i osmišljavati
-sadržaj i učiniti korisničko iskustvo što lakšim. U praznom hodu, tu je rad
-na drugim projektima koje imamo u planu.
--->
+Treći korak - unutra si :)
