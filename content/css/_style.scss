@@ -431,7 +431,6 @@ div.agenda {
 	background-size: 4px 4px;
 	padding: 0 40px 40px 40px;
 	@include border-radius(16px, 16px);
-	margin-bottom: 55px;
 	h3 {
 		&:before {
 			content: "\f017";
@@ -558,4 +557,8 @@ div.prijin {
 	p {
 		margin-bottom: 0;
 	}
+}
+
+h2#fotke {
+	margin-top: 55px;
 }
