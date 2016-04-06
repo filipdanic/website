@@ -1,14 +1,14 @@
 ---
-title: Tehnološki Doručak #5
-subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
-title_img: title.png
+title: Tehnološki Doručak 4
+subtitle: SmartGames | Zamphyr | Zvučna mapa Beograda | Linux u praksi
+title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 2016-05-04
+event: 2016-04-06
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
-event_meetup:
+event_meetup: 229282823
 view_map: true
 partner:
   - kiflice
@@ -17,11 +17,9 @@ partner:
   - supernatural-bar
 ---
 
-_Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
-sa ciljem brze razmene ideja i znanja među učesnicima, u prijatnoj atmosferi prve
-jutarnje kafe. Četiri predavanja od 5 minuta, 2 minuta za pitanja uz networking
-dopunjen kiflicama je sjajan način da se započne dan.
-{: .focus}
+## <%= h(@item[:title]) %>
+
+#### <%= h(@item[:subtitle]) %>
 
 <%= render '/_eventbox.html' %>
 
@@ -39,8 +37,6 @@ društveno korisne aktivnosti koje pokreću promene uz pomoć tehnologija.
 Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
-
-{::comment}
 
 ## Agenda
 
@@ -75,14 +71,10 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-{:/comment}
-
-<%= render '/prijave/_prijava_tehdorucak.html' %>
-
-## Sponzorstvo?
-
-Ukoliko želite da budete sponzor doručka javite nam se na **<mailto:dorucak@heapspace.rs>**.
-
 ## Arhiva
 
 <%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
+
+## Fotke
+
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157666838368495', rows: 2 } ] %>
