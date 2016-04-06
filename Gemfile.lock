@@ -109,6 +109,7 @@ GEM
     slop (3.6.0)
     thor (0.19.1)
     tilt (2.0.2)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -133,6 +134,7 @@ DEPENDENCIES
   rainpress
   s3_website
   sass
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.11.2
