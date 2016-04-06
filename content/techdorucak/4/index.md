@@ -71,10 +71,6 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
-
 ## Fotke
 
 <%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157666838368495', rows: 2 } ] %>
