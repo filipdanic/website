@@ -52,7 +52,6 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-
 ## Fotke
 
 <%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157662646777884', rows: 2 } ] %>
