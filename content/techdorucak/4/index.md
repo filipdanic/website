@@ -60,7 +60,7 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 [Zvučna mapa Beograda](http://www.zvucnamapabeograda.rs/) | [Andrija Stojanović](https://rs.linkedin.com/in/andrija-stojanović-5921b986)
 : Da li znate kako zvuči Beograd? Sećanja, iskustava, stavovi i osećanja o mestima, ljudima i događajima koji su kroz pripovedenje svoje okoline postali deo identiteta jednog dela grada.
 
-[Linux u praksi](http://www.ubuntu-rs.org/) | [Ladislav Urošević](https://twitter.com/Uros_Vozdovac)
+[Linux u praksi](http://www.ubuntu-rs.org/) | [Ladislav Urošević](https://twitter.com/Uros_Vozdovac) i [Bojan Bogdanović](https://twitter.com/bojce)
 : Ubuntu u privredi Srbije, SAP, integracija sa MS Exchange, primeri uspešnih hibridnih mreža u Srbiji.
 
 ### 9:00 - 9:30
