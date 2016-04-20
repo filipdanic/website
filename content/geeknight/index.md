@@ -4,9 +4,9 @@ title_img: geek-night.png
 subtitle:
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
-event: 2016-04-28
-event_start: '18:30'
-event_end: '21:30'
+event: 
+event_start: 
+event_end: 
 event_venue: dom-omladine
 event_meetup:
 view_map: true
