@@ -15,7 +15,9 @@ partner:
   - nescafe
   - uk-parobrod
   - supernatural-bar
----
+sponsor:
+  - sevenbridges
+----------------
 
 _Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
 sa ciljem brze razmene ideja i znanja među učesnicima, u prijatnoj atmosferi prve
@@ -40,7 +42,7 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
-{::comment}
+
 
 ## Agenda
 
@@ -55,17 +57,18 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Predstavljanja
 
-[SmartGames](https://games.atamagai.com/) | [Borislav Blagojević](https://rs.linkedin.com/in/blagojevic)
-: Naučite kako da razmišljate izvan uobičajenih okvira uz digitalne verzije klasičnih enigmatskih glavolomki koje su nas naučile kako da razvijamo aplikacije za mobilne platforme.
 
-[Zamphyr](https://zamphyr.com/) | [Marko Kažić](https://ru.linkedin.com/in/markokikinda)
-: Digital-first škola dizajnirana za učenje računarskih nauka, od A do Š i zašto je ovo ovo potpuno drugačiji koncept učenja od bilo čega do sad.
+[Kidster](http://www.getkidster.com/) | [Ana Pajković](https://me.linkedin.com/in/anavujisic) i [Marija Janjušević](https://rs.linkedin.com/in/marijajanjusevic)
+: Mobilna aplikacija kao mesto na kome roditelji mogu da kupuju i prodaju malo korišćene dečje stvari. Baza roditelja koji slično razmišljaju, koji su ekološki osvešćeni i koji bi želeli da budu deo takve zajednice. 
 
-[Zvučna mapa Beograda](http://www.zvucnamapabeograda.rs/) | [Andrija Stojanović](https://rs.linkedin.com/in/andrija-stojanović-5921b986)
-: Da li znate kako zvuči Beograd? Sećanja, iskustava, stavovi i osećanja o mestima, ljudima i događajima koji su kroz pripovedenje svoje okoline postali deo identiteta jednog dela grada.
+[Fragrance by me](http://fragranceby.me/) | [Outi Ortiz](https://www.linkedin.com/in/outiortiz) i [Uroš Brkić](https://de.linkedin.com/in/urosbrkic)
+: We are taking our customers to an exciting journey of being a perfume designer. The final destination is a fully custom-prepared, high quality, unique fragrance - the fragrance by you.
 
-[Linux u praksi](http://www.ubuntu-rs.org/) | [Ladislav Urošević](https://twitter.com/Uros_Vozdovac)
-: Ubuntu u privredi Srbije, SAP, integracija sa MS Exchange, primeri uspešnih hibridnih mreža u Srbiji.
+Open data i Srbija | [Ivan Branisavljević](https://www.linkedin.com/in/ivanbranisavljevic)
+: Gde su i šta rade otvoreni podaci u Srbiji. Da li je već kasno ili pak suviše rano za ovu priču kod nas?
+
+DCC - preteča IoT-a | [Aleksandar Vukalović](https://rs.linkedin.com/in/aleksandar-vukalovic-bb71a486)
+: Šta smo od rođenja propustili, a prošlo je kroz sve ove faze? DCC, JMRI i primene.
 
 ### 9:00 - 9:30
 
@@ -75,7 +78,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-{:/comment}
+
 
 <%= render '/prijave/_prijava_tehdorucak.html' %>
 

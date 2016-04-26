@@ -15,6 +15,8 @@ partner:
   - nescafe
   - uk-parobrod
   - supernatural-bar
+sponsor:
+  - sevenbridges
 ---
 
 ## <%= h(@item[:title]) %>
