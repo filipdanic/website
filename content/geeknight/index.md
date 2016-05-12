@@ -31,62 +31,43 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
-{::comment}
-
 ## Agenda
 
 <div class="agenda" markdown="1">
 <%= render '/_line.html', :icon => 'fa-map-o' %>
 
-### 18:30 - 18:35
+### 18:30 - 18:45
 
-## Uvod i pozdrav
+## Hello world!
 
-### 18:35 - 19:15
+### 18:50 - 19:30
 
-## Alati za ubrzavanje razvoja: mogućnosti i ograničenja
+## The next level of JavaScript - ES6/ES2015
 
-[Duško Vesin](https://www.linkedin.com/in/duskovesin) | [drytools](http://drytools.co/)
-: Zašto je bitno ubrzati development proces? Koji su sve benefiti korišćenja alata
-  za ubrzavanje razvoja? Kratak overview alata koje developeri koriste da
-  ubrzaju razvoj sa pregledom prednosti i mana. Kratak demo drytools alata za ubrzavanje.
+[Slobodan Stojanović](https://github.com/stojanovic) | [Cloud Horizon](http://cloudhorizon.com/)
+: Kratka prezentacija o tome šta donosi nova verzija JavaScript-a. Osvrt
+  na buduće planove za razvoj jezika. Bez obzira na nivou obučenosti,
+  prava prilika da ustanovimo koliko JavaScript postaje
+  univerzalna platforma! Spremite pitanja!
 
-### 19:15 - 19:55
+### 19:30 - 20:20
 
-## Godot: Game Engine
+## Responsive dizajn - ceo proces
 
-[Vedran Vujinović](https://rs.linkedin.com/in/vedran-vujinovic-b67421b4) i [Miloš Smiljanić](https://rs.linkedin.com/in/smiki) | [Comtrade](http://www.comtrade.com/)
-: Kratka priča o "malom" game engine-u kog smo čekali. Šta nudi, šta mu još nedostaje
-  i kako se igre mogu razvijati potpuno "free" (as in freedom).
+[Marija Zarić](http://www.marijazaric.com/)
+: Priča o praktičnom iskustvu rada sa responsive web dizajnom: od momenta
+  kada se dobije projekat od klijenata, preko samog procesa sa akcentom na
+  dizajniranje u pretraživaču, do responsivnih alata (Bootstrap, Responsee...).
+  Uključeno je i testiranje sa [besplatnom temom](http://gridgum.com/theme-preview/new-wave-portfolio-theme/).
 
-### 19:55 - 20:15
-
-## Upoznaj CodePen.io
-
-[Miloš Rujević](http://www.linkedin.com/in/itmilos) | [CallidusCloud](http://www.calliduscloud.com)
-: CodePen je igralište za svakog front-end developera. Saznajte kako da
-  nadogradite vaše front-end veštine ili podelite svoje znanje
-  sa drugima uz pomoć CodePen-a.
-
-### 20:15 - 20:45
-
-## Dve kocke stresa molim
-
-[Bojan Đuričić](http://toorshia.com)
-: Kao što znamo IT je trenutno naj industrija u mnogo aspekata. Najdinamičnija,
-  najprogresivnija, najbolje plate, najbrži ciklusi razvoja, najveci deficit u
-  dostupnim resursima, najludji rokovi. Pritisak, frka, ludilo, idemooo.
-
-### 20:45 - 21:30
+### 20:20 - 21:21
 
 ## Druženje
 
-Uz [Zaječarsko pivo](http://zajecarskopivo.com/) i [BigPizzu](http://bigpizza.rs).
-
+Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i, njam, [BigPizzu](http://bigpizza.rs).
+Uključen je i tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
 
 </div>
-
-{:/comment}
 
 
 <%= render '/prijave/_prijava_geeknight.html' %>
