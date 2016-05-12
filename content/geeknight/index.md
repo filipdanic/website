@@ -45,9 +45,10 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 ## The next level of JavaScript - ES6/ES2015
 
 [Slobodan Stojanović](https://github.com/stojanovic) | [Cloud Horizon](http://cloudhorizon.com/)
-: Kratka prezentacija o tome šta donosi nova verzija JavaScript-a. Osvrt
-  na buduće planove za razvoj jezika. Bez obzira na nivo obučenosti,
-  prava prilika da ustanovimo koliko JavaScript postaje
+: Šta je novo doneo ES6/ES2015, kako JavaScript izgleda danas i šta još novo stiže.
+  Koje od novih stvari možete koristiti danas u browseru i NodeJSu bez transpilera,
+  a za šta će nam još neko vreme biti potreban Babel.
+  Bez obzira na nivo obučenosti, prava prilika da ustanovimo koliko JavaScript postaje
   univerzalna platforma! Spremite pitanja!
 
 ### 19:30 - 20:20
@@ -55,7 +56,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 ## Responsive dizajn - ceo proces
 
 [Marija Zarić](http://www.marijazaric.com/)
-: Priča o praktičnom iskustvu rada sa responsive web dizajnom: od momenta
+: Pričamo o praktičnom iskustvu rada sa responsive web dizajnom: od momenta
   kada se dobije projekat od klijenata, preko samog procesa sa akcentom na
   dizajniranje u pretraživaču, do responsivnih alata (Bootstrap, Responsee...).
   Uključeno je i testiranje sa [besplatnom temom](http://gridgum.com/theme-preview/new-wave-portfolio-theme/).
@@ -65,7 +66,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 ## Druženje
 
 Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i, njam, [BigPizzu](http://bigpizza.rs).
-Uključen je i tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
+Plus tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
 
 </div>
 
