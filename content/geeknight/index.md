@@ -41,6 +41,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## The next level of JavaScript - ES6/ES2015
 
+![](4/slobodan.jpg){: .heximg .right}
 [Slobodan Stojanović](https://github.com/stojanovic) | [Cloud Horizon](http://cloudhorizon.com/)
 : Šta je novo doneo ES6/ES2015, kako JavaScript izgleda danas i šta još novo stiže.
   Koje od novih stvari možete koristiti danas u browseru i NodeJSu bez transpilera,
@@ -52,6 +53,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Responsive dizajn - ceo proces
 
+![](4/marija-zaric.jpg){: .heximg .right}
 [Marija Zarić](http://www.marijazaric.com/)
 : Pričamo o praktičnom iskustvu rada sa responsive web dizajnom: od momenta
   kada se dobije projekat od klijenata, preko samog procesa sa akcentom na
@@ -62,7 +64,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Druženje
 
-Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i, njam, [BigPizzu](http://bigpizza.rs).
+Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i, njam, [BigPizzu](http://bigpizza.rs).\\
 Plus tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
 
 </div>

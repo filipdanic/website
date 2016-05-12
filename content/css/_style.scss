@@ -572,3 +572,14 @@ footer #license {
 		color: #aaa;
 	}
 }
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+.heximg {
+	width: 120px;
+	height: 120px;
+	background: #1e90ff;
+	-webkit-clip-path:	polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	clip-path:			polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
