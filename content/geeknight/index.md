@@ -46,7 +46,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 [Slobodan Stojanović](https://github.com/stojanovic) | [Cloud Horizon](http://cloudhorizon.com/)
 : Kratka prezentacija o tome šta donosi nova verzija JavaScript-a. Osvrt
-  na buduće planove za razvoj jezika. Bez obzira na nivou obučenosti,
+  na buduće planove za razvoj jezika. Bez obzira na nivo obučenosti,
   prava prilika da ustanovimo koliko JavaScript postaje
   univerzalna platforma! Spremite pitanja!
 
