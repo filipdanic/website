@@ -14,9 +14,6 @@ partner:
   - dob
   - zaječarsko
   - bigpizza
-sponsor:
-  - comtrade
-  - sevenbridges
 ----------------
 
 _GeekNight_ se održava jednom mesečno - svakog _poslednjeg četvrtka_ u mesecu -
