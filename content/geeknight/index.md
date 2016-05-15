@@ -39,18 +39,6 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ### 18:50 - 19:30
 
-## The next level of JavaScript - ES6/ES2015
-
-![](4/slobodan.jpg){: .heximg .right}
-[Slobodan Stojanović](https://github.com/stojanovic) | [Cloud Horizon](http://cloudhorizon.com/)
-: Šta je novo doneo ES6/ES2015, kako JavaScript izgleda danas i šta još novo stiže.
-  Koje od novih stvari možete koristiti danas u browseru i NodeJSu bez transpilera,
-  a za šta će nam još neko vreme biti potreban Babel.
-  Bez obzira na nivo obučenosti, prava prilika da ustanovimo koliko JavaScript postaje
-  univerzalna platforma! Spremite pitanja!
-
-### 19:30 - 20:20
-
 ## Responsive dizajn - ceo proces
 
 ![](4/marija-zaric.jpg){: .heximg .right}
@@ -59,6 +47,24 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
   kada se dobije projekat od klijenata, preko samog procesa sa akcentom na
   dizajniranje u pretraživaču, do responsivnih alata (Bootstrap, Responsee...).
   Uključeno je i testiranje sa [besplatnom temom](http://gridgum.com/theme-preview/new-wave-portfolio-theme/).
+
+### 19:30 - 20:20
+
+## Development Velocity Liftoff with GraphQL and Meldio
+
+![](4/nemanja.jpg){: .heximg .right}
+[Nemanja Stanarević](https://www.linkedin.com/in/nemanjastanarevic) | [Meldio](http://meldio.com)
+: GraphQL je primarno-mobilni pristup komunikaciji između aplikacije i backend-a,
+  koji je Facebook napravio da omogući skaliranje svojih aplikacija na
+  milijarde korisnika, na praktično svim mobilnim platformama.
+  Sa druge strane, BaaS alatke nam nude brzo prototipovanje i iteraciju,
+  sa potencijalno smanjenom fleksibilnošću. Da li možemo da dobijemo obe stvari:
+  brzinu BaaS alatki sa fleksibilnošću
+  kastomizovanog backend-a? Upoznaćemo Meldio - kompletno rešenje open-source GraphQL
+  backend-a, koji rešava ovaj problem. Napravićemo blog server
+  za par minuta i pokrićemo Meldio arhitekturu i par interesantnih
+  implementacionih detalja.
+
 
 ### 20:20 - 21:21
 
