@@ -15,8 +15,7 @@ partner:
   - nescafe
   - uk-parobrod
   - supernatural-bar
-sponsor:
-  - sevenbridges
+
 ---
 
 _Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
@@ -42,8 +41,6 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
-{::comment}
-
 ## Agenda
 
 <div class="agenda" markdown="1">
@@ -57,18 +54,11 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Predstavljanja
 
+Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https://facebook.com/matija.cupic)
+: Istraživanje mogućnosti i praktičnosti jezika minimalnog broja ključnih reči van opsega tjuring tarpitova je vodeća ideja ovog istraživanja. Cilj je stvaranje praktične implementacije programskog jezika kao i razvoj specifičnog razvojnog okruženja koje podržava notaciju minimalnog vokabulara.
 
-[Kidster](http://www.getkidster.com/) | [Ana Pajković](https://me.linkedin.com/in/anavujisic) i [Marija Janjušević](https://rs.linkedin.com/in/marijajanjusevic)
-: Mobilna aplikacija kao mesto na kome roditelji mogu da kupuju i prodaju malo korišćene dečje stvari. Baza roditelja koji slično razmišljaju, koji su ekološki osvešćeni i koji bi želeli da budu deo takve zajednice.
-
-[Fragrance by me](http://fragranceby.me/) | [Outi Ortiz](https://www.linkedin.com/in/outiortiz) i [Uroš Brkić](https://de.linkedin.com/in/urosbrkic)
-: We are taking our customers to an exciting journey of being a perfume designer. The final destination is a fully custom-prepared, high quality, unique fragrance - the fragrance by you.
-
-Open data i Srbija | [Ivan Branisavljević](https://www.linkedin.com/in/ivanbranisavljevic)
-: Gde su i šta rade otvoreni podaci u Srbiji. Da li je već kasno ili pak suviše rano za ovu priču kod nas?
-
-DCC - preteča IoT-a | [Aleksandar Vukalović](https://rs.linkedin.com/in/aleksandar-vukalovic-bb71a486)
-: Šta smo od rođenja propustili, a prošlo je kroz sve ove faze? DCC, JMRI i primene.
+[Game Suit](https://www.youtube.com/channel/UC_knhpNCjSy5hxKaedl9GaQ) | [Uroš Filipović](https://www.facebook.com/uros.filipovic.716)
+: Uloga Game Suit-a je povećanje interakcije između igrača i igre tako što simulira štetu iz nje. To znači da ako vaš karakter u igri primi bilo koji oblik štete, Game Suit će kontrahovati vaše mišiće tako da ćete se osećati kao da ste u njoj učestvovali.  Odelo takođe meri vaš puls i na osnovu toga povećava ili smanjuje jačinu taktilnog feedback-a tako da ako ste uplašeni dok igrate igru odelo će smanjiti intenzitet povratne informacije da se više ne biste plašili.
 
 ### 9:00 - 9:30
 
@@ -81,7 +71,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 <%= render '/prijave/_prijava_tehdorucak.html' %>
 
-{:/comment}
+
 
 ## Sponzorstvo?
 
