@@ -60,6 +60,10 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 [Game Suit](https://www.youtube.com/channel/UC_knhpNCjSy5hxKaedl9GaQ) | [Uroš Filipović](https://www.facebook.com/uros.filipovic.716)
 : Uloga Game Suit-a je povećanje interakcije između igrača i igre tako što simulira štetu iz nje. To znači da ako vaš karakter u igri primi bilo koji oblik štete, Game Suit će kontrahovati vaše mišiće tako da ćete se osećati kao da ste u njoj učestvovali.  Odelo takođe meri vaš puls i na osnovu toga povećava ili smanjuje jačinu taktilnog feedback-a tako da ako ste uplašeni dok igrate igru odelo će smanjiti intenzitet povratne informacije da se više ne biste plašili.
 
+**Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
+
+
+
 ### 9:00 - 9:30
 
 ## Slobodna diskusija
