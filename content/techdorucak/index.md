@@ -61,7 +61,11 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 : Uloga Game Suit-a je povećanje interakcije između igrača i igre tako što simulira štetu iz nje. To znači da ako vaš karakter u igri primi bilo koji oblik štete, Game Suit će kontrahovati vaše mišiće tako da ćete se osećati kao da ste u njoj učestvovali.  Odelo takođe meri vaš puls i na osnovu toga povećava ili smanjuje jačinu taktilnog feedback-a tako da ako ste uplašeni dok igrate igru odelo će smanjiti intenzitet povratne informacije da se više ne biste plašili.
 
 [StopNGo](http://stopngo.help/) | [Vladimir Sijakovic](https://rs.linkedin.com/in/vladimirsijakovic)
-: Personalizovani digitalni mehaničar koji pomaže da rešite probleme sa kolima na putu, bilo kada, bilo gde.  
+: Personalizovani digitalni mehaničar koji pomaže da rešite probleme sa kolima na putu, bilo kada, bilo gde.
+  
+[FABLab](http://fablab.rs/) | 
+: Šta je to Fab Lab i šta to može da znači za vas. Mali hint možete videti [ovde](https://www.youtube.com/watch?v=iiCtsrtGYe0&feature=youtu.be).
+
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
 
