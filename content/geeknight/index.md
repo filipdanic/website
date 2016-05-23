@@ -13,7 +13,6 @@ view_map: true
 partner:
   - dob
   - zaječarsko
-  - bigpizza
 ----------------
 
 _GeekNight_ se održava jednom mesečno - svakog _poslednjeg četvrtka_ u mesecu -
@@ -70,7 +69,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Druženje
 
-Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i, njam, [BigPizzu](http://bigpizza.rs).\\
+Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i grickalice.\\
 Plus tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
 
 </div>
