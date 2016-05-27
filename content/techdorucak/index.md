@@ -63,8 +63,8 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 [StopNGo](http://stopngo.help/) | [Vladimir Sijakovic](https://rs.linkedin.com/in/vladimirsijakovic)
 : Personalizovani digitalni mehaničar koji pomaže da rešite probleme sa kolima na putu, bilo kada, bilo gde.
   
-[FABLab](http://fablab.rs/) | 
-: Šta je to Fab Lab i šta to može da znači za vas. Mali hint možete videti [ovde](https://www.youtube.com/watch?v=iiCtsrtGYe0&feature=youtu.be).
+[Fab labovi i makerspaces u Srbiji](http://fablab.rs/) | [Ivana Gadjanski](http://rs.linkedin.com/in/ivanagadjanski/) i [Alen Piljak](https://rs.linkedin.com/in/alenpiljak)
+: Predstavljanje organizacija [Fab Inicijativa](http://www.fablab.rs/) i [EduLab](https://www.facebook.com/EduLabSerbia/) i tima koji je organizovao [FABelgrade2016](http://www.fabelgrade.io/), prvu regionalnu konferenciju o digitalnoj fabrikaciji i fab lab konceptu. Fab labovi su radionice za digitalnu fabrikaciju (3D štampu i srodne tehnologije) koje su blisko povezane sa više oblasti, kao što su nauka, obrazovanje, dizajn-arhitektura, preduzetništvo. 
 
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
