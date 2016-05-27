@@ -19,6 +19,7 @@ preprocess do
 
 end
 
+ignore '_*.scss'
 
 ## javascript
 

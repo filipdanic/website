@@ -2,7 +2,7 @@
 	<% get_events(@time, @kind, @limitnumber).each { |itid| it = @items[itid] %>
 		<div class="item">
 			<%=kind_icon(it[:kind])%>
-			<div><%=link_to(h(it[:title]), it)%> : <%=h(it[:subtitle])%></div>
+			<div><%= link_to(h(it[:title].to_s), it) %> : <%= h(it[:subtitle].to_s) %></div>
 			<div class="date-bold"><%=datum(it[:event])%></div>
 		</div>
 	<% } %>
