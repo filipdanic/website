@@ -1,7 +1,7 @@
 ---
-title: GeekNight
+title: GeekNight 4
 title_img: ../geek-night.png
-subtitle: responsive web dizajn | GraphQL
+subtitle: Responsive web dizajn | GraphQL
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
 event: 2016-05-26
