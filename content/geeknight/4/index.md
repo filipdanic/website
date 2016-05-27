@@ -1,14 +1,14 @@
 ---
 title: GeekNight
-title_img: geek-night.png
-subtitle:
+title_img: ../geek-night.png
+subtitle: responsive web dizajn | GraphQL
 img: /images/hsbck_geeknight.jpg
 kind: 'talk'
-event:
+event: 2016-05-26
 event_start: '18:30'
 event_end: '21:30'
 event_venue: dom-omladine
-event_meetup: 
+event_meetup: 230922591
 view_map: true
 partner:
   - dob
@@ -27,8 +27,6 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
-{::comment}
-
 ## Agenda
 
 <div class="agenda" markdown="1">
@@ -42,7 +40,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Responsive dizajn - ceo proces
 
-![](4/marija-zaric.jpg){: .heximg .right}
+![](marija-zaric.jpg){: .heximg .right}
 [Marija Zarić](http://www.marijazaric.com/)
 : Pričamo o praktičnom iskustvu rada sa responsive web dizajnom: od momenta
   kada se dobije projekat od klijenata, preko samog procesa sa akcentom na
@@ -53,7 +51,7 @@ delatnosti dobrodošli ste da učestvujete kao predavač ili slušalac.
 
 ## Development Velocity Liftoff with GraphQL and Meldio
 
-![](4/nemanja.jpg){: .heximg .right}
+![](nemanja.jpg){: .heximg .right}
 [Nemanja Stanarević](https://www.linkedin.com/in/nemanjastanarevic) | [Meldio](http://meldio.com)
 : GraphQL je primarno-mobilni pristup komunikaciji između aplikacije i backend-a,
   koji je Facebook napravio da omogući skaliranje svojih aplikacija na
@@ -75,16 +73,3 @@ Uz, hik, [Zaječarsko pivo](http://zajecarskopivo.com/) i grickalice.\\
 Plus tradicionalni [Floppy Challenge](http://heapspace.rs/fun/floppy-challenge/)!!!
 
 </div>
-
-{:/comment}
-
-<%= render '/prijave/_prijava_geeknight.html' %>
-
-## Sponzorstvo?
-
-Ukoliko želite da budete sponzor javite nam se na **<mailto:geeknight@heapspace.rs>**.
-
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'talk',  :limitnumber => 10 %>
