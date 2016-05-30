@@ -60,10 +60,10 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 [Game Suit](https://www.youtube.com/channel/UC_knhpNCjSy5hxKaedl9GaQ) | [Uroš Filipović](https://www.facebook.com/uros.filipovic.716)
 : Uloga Game Suit-a je povećanje interakcije između igrača i igre tako što simulira štetu iz nje. To znači da ako vaš karakter u igri primi bilo koji oblik štete, Game Suit će kontrahovati vaše mišiće tako da ćete se osećati kao da ste u njoj učestvovali.  Odelo takođe meri vaš puls i na osnovu toga povećava ili smanjuje jačinu taktilnog feedback-a tako da ako ste uplašeni dok igrate igru odelo će smanjiti intenzitet povratne informacije da se više ne biste plašili.
 
-[StopNGo](http://stopngo.help/) | [Vladimir Sijakovic](https://rs.linkedin.com/in/vladimirsijakovic)
+[StopNGo](http://stopngo.help/) | [Vladimir Sijaković](https://rs.linkedin.com/in/vladimirsijakovic)
 : Personalizovani digitalni mehaničar koji pomaže da rešite probleme sa kolima na putu, bilo kada, bilo gde.
   
-[Fab labovi i makerspaces u Srbiji](http://fablab.rs/) | [Ivana Gadjanski](http://rs.linkedin.com/in/ivanagadjanski/) i [Alen Piljak](https://rs.linkedin.com/in/alenpiljak)
+[Fab labovi i makerspaces u Srbiji](http://fablab.rs/) | [Ivana Gađanski](http://rs.linkedin.com/in/ivanagadjanski/) i [Alen Piljak](https://rs.linkedin.com/in/alenpiljak)
 : Predstavljanje organizacija [Fab Inicijativa](http://www.fablab.rs/) i [EduLab](https://www.facebook.com/EduLabSerbia/) i tima koji je organizovao [FABelgrade2016](http://www.fabelgrade.io/), prvu regionalnu konferenciju o digitalnoj fabrikaciji i fab lab konceptu. Fab labovi su radionice za digitalnu fabrikaciju (3D štampu i srodne tehnologije) koje su blisko povezane sa više oblasti, kao što su nauka, obrazovanje, dizajn-arhitektura, preduzetništvo. 
 
 
