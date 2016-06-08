@@ -1,14 +1,14 @@
 ---
-title: Tehnološki Doručak #7
-subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
-title_img: title.png
+title: Tehnološki Doručak 6
+subtitle: M jezik | Game suit | StopNGo | Fab labs
+title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 2016-07-06
+event: 2016-06-01
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
-event_meetup:
+event_meetup: 231168340
 view_map: true
 partner:
   - kiflice
@@ -42,8 +42,6 @@ društveno korisne aktivnosti koje pokreću promene uz pomoć tehnologija.
 Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
-
-{::comment}
 
 ## Agenda
 
@@ -82,16 +80,3 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
-
-
-<%= render '/prijave/_prijava_tehdorucak.html' %>
-
-{/:comment}
-
-## Sponzorstvo?
-
-Ukoliko želite da budete sponzor doručka javite nam se na **<mailto:dorucak@heapspace.rs>**.
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 6 %>
