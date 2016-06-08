@@ -15,9 +15,7 @@ partner:
   - nescafe
   - uk-parobrod
   - supernatural-bar
-sponsor:
-  - sevenbridges
-  - levi9
+
 ---
 
 _Tehnološki doručak_ predstavlja mesečno okupljanje - svake prve srede u mesecu -
