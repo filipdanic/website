@@ -41,7 +41,7 @@ Događaj je otvoren za sve koji se bave ili interesuju za nove tehnologije,
 softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
-{::comment}
+
 
 ## Agenda
 
@@ -56,6 +56,8 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Predstavljanja
 
+{::comment}
+
 Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https://facebook.com/matija.cupic)
 : Istraživanje mogućnosti i praktičnosti jezika minimalnog broja ključnih reči van opsega tjuring tarpitova je vodeća ideja ovog istraživanja. Cilj je stvaranje praktične implementacije programskog jezika kao i razvoj specifičnog razvojnog okruženja koje podržava notaciju minimalnog vokabulara.
 
@@ -68,6 +70,7 @@ Praktičnost i dizajn jezika minimalnog vokabulara: M | [Matija Ćupić](https:/
 [Fab labovi i makerspaces u Srbiji](http://fablab.rs/) | [Ivana Gađanski](http://rs.linkedin.com/in/ivanagadjanski/) i [Alen Piljak](https://rs.linkedin.com/in/alenpiljak)
 : Predstavljanje organizacija [Fab Inicijativa](http://www.fablab.rs/) i [EduLab](https://www.facebook.com/EduLabSerbia/) i tima koji je organizovao [FABelgrade2016](http://www.fabelgrade.io/), prvu regionalnu konferenciju o digitalnoj fabrikaciji i fab lab konceptu. Fab labovi su radionice za digitalnu fabrikaciju (3D štampu i srodne tehnologije) koje su blisko povezane sa više oblasti, kao što su nauka, obrazovanje, dizajn-arhitektura, preduzetništvo.
 
+{/:comment}
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
 
@@ -84,7 +87,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 <%= render '/prijave/_prijava_tehdorucak.html' %>
 
-{/:comment}
+
 
 ## Sponzorstvo?
 
