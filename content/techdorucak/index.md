@@ -61,6 +61,14 @@ Pametne zdravstvene knjižice | [Marko Jovanović](https://rs.linkedin.com/in/ma
 [ONO Bikes](http://www.onobikes.com/) | [Marko Šćepanović](https://www.linkedin.com/in/marko-scepanovic-90494688)
 : Lični lifestyle transportni sistem. Moćni električni bicikl sa stilom.  
 
+[Zelenoo.com](http://zelenoo.com/) | [Nikica Marinković](https://www.linkedin.com/in/nikica-marinkovic-65550429)
+
+: Servis koji omogućava kupcima iz Beograda da naruče preko interneta organsku i domaću hranu od malih poljoprivrednih gazdinstava i proizvođača koji ulažu sav svoj trud i ljubav u kvalitet svojih proizvoda.
+
+[Posivibe.me](http://posivibe.me/) | Aleksandar Burić 
+
+: Aplikacija koja širi pozitivnu energiju širom sveta. 
+
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
 
