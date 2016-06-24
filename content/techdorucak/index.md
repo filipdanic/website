@@ -62,11 +62,9 @@ Pametne zdravstvene knjižice | [Marko Jovanović](https://rs.linkedin.com/in/ma
 : Lični lifestyle transportni sistem. Moćni električni bicikl sa stilom.  
 
 [Zelenoo.com](http://zelenoo.com/) | [Nikica Marinković](https://www.linkedin.com/in/nikica-marinkovic-65550429)
-
 : Servis koji omogućava kupcima iz Beograda da naruče preko interneta organsku i domaću hranu od malih poljoprivrednih gazdinstava i proizvođača koji ulažu sav svoj trud i ljubav u kvalitet svojih proizvoda.
 
 [Posivibe.me](http://posivibe.me/) | Aleksandar Burić 
-
 : Aplikacija koja širi pozitivnu energiju širom sveta. 
 
 
