@@ -4,7 +4,7 @@ subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
 title_img: title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 2016-07-06
+event: 2016-08-03
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
