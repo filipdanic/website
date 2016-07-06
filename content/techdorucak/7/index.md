@@ -1,7 +1,7 @@
 ---
-title: Tehnološki Doručak #7
-subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
-title_img: title.png
+title: Tehnološki Doručak 7
+subtitle: Zelenoo.com | Posivibe.me
+title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
 event: 2016-07-06
@@ -41,7 +41,6 @@ softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
 
-{::comment}
 
 ## Agenda
 
@@ -56,11 +55,15 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Predstavljanja
 
+{::comment}
+
 Pametne zdravstvene knjižice | [Marko Jovanović](https://rs.linkedin.com/in/marko-jovanović-b0a53a71)
 : Šta da očekujete od novih zdravstvenih knjižica? Kojim podacima je moguće pristupiti i kako.
 
 [ONO Bikes](http://www.onobikes.com/) | [Marko Šćepanović](https://www.linkedin.com/in/marko-scepanovic-90494688)
 : Lični lifestyle transportni sistem. Moćni električni bicikl sa stilom.  
+
+{:/comment}
 
 [Zelenoo.com](http://zelenoo.com/) | [Nikica Marinković](https://www.linkedin.com/in/nikica-marinkovic-65550429)
 : Servis koji omogućava kupcima iz Beograda da naruče preko interneta organsku i domaću hranu od malih poljoprivrednih gazdinstava i proizvođača koji ulažu sav svoj trud i ljubav u kvalitet svojih proizvoda.
@@ -81,17 +84,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-{:/comment}
 
+## Fotke
 
-<%= render '/prijave/_prijava_tehdorucak.html' %>
-
-
-
-## Sponzorstvo?
-
-Ukoliko želite da budete sponzor doručka javite nam se na **<mailto:dorucak@heapspace.rs>**.
-
-## Arhiva
-
-<%= render '/_event_list.html', :time => 'old', :kind => 'tekfast', :limitnumber => 12 %>
+<%= render '/_galerije.html', :sources => [ { type: 'flickr', user: '136891384@N04', album: '72157670618699996', rows: 2 } ] %>
