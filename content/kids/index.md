@@ -2,6 +2,7 @@
 title: HeapSpace <3 kids
 subtitle: Najvažnije je kome ostavljamo znanje i svet
 img: /images/hsbck_kids1.jpg
+title_img: hskids.png
 ---
 
 Važno je da deca i mladi dobiju pravilno i potpunije znanje. Iako je danas tehnologija skoro svuda, često se zanemaruje tamo gde bi trebalo da je uveliko prisutna: u školama. Cilj nam je da mlade što pre uputimo u svet tehnologija, kako bi naučili da se kroz njih iskažu i ovladaju veštinama zahvaljući kojima će na vreme početi da grade perspektivnu budućnost.
