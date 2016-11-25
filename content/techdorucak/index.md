@@ -65,6 +65,8 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 [Green Shield Workshop](http://gsworkshop.com/) | Nenad Milić
 : Kako postati kovač i to umeće iskoristiti za postizanje globalne prodaje.
 
+[Cactomain](https://cactomain.co/) | [Đorđe Vanjek](http://djordjevanjek.com/)
+: Domen registar sa fokusom na fenomenalno korisničko iskustvo
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
 
