@@ -1,10 +1,10 @@
 ---
-title: Tehnološki Doručak #7
-subtitle: Čavrljanje o tehnologijama uz kafu i kroasane
+title: Tehnološki Doručak #8
+subtitle: Čavrljanje o tehnološkim poduhvatima uz kafu i kroasane
 title_img: title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 
+event: 2016-12-07
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
@@ -41,7 +41,7 @@ softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
 
-{::comment}
+
 
 ## Agenda
 
@@ -56,17 +56,14 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 
 ## Predstavljanja
 
-Pametne zdravstvene knjižice | [Marko Jovanović](https://rs.linkedin.com/in/marko-jovanović-b0a53a71)
-: Šta da očekujete od novih zdravstvenih knjižica? Kojim podacima je moguće pristupiti i kako.
+[GoooShop](http://www.goooshop.com/website/index) | [Vladimir Marković](https://rs.linkedin.com/in/vladimir-markovic-86696818)
+: Aplikacija koja pruža priliku svakome da bude stvaralac sadržaja za vodeće brendove i pri tome zaradi.
 
-[ONO Bikes](http://www.onobikes.com/) | [Marko Šćepanović](https://www.linkedin.com/in/marko-scepanovic-90494688)
-: Lični lifestyle transportni sistem. Moćni električni bicikl sa stilom.  
+[vHike](http://vhike.co/) | [Andor Luhović](https://rs.linkedin.com/in/luhovic)
+: Mobilna aplikacija koja brine o bezbednosti planinara i hajkera kada su u prirodi. Ovo je jedina aplikacija koja nagrađuje korisnike kada postignu uspehe kao što je osvajanje vrha ili pronalaženje udaljenog vodopada, jezera i slično.  
 
-[Zelenoo.com](http://zelenoo.com/) | [Nikica Marinković](https://www.linkedin.com/in/nikica-marinkovic-65550429)
-: Servis koji omogućava kupcima iz Beograda da naruče preko interneta organsku i domaću hranu od malih poljoprivrednih gazdinstava i proizvođača koji ulažu sav svoj trud i ljubav u kvalitet svojih proizvoda.
-
-[Posivibe.me](http://posivibe.me/) | Aleksandar Burić
-: Aplikacija koja širi pozitivnu energiju širom sveta.
+[Green Shield Workshop](http://gsworkshop.com/) | Nenad Milić
+: Kako postati kovač i to umeće iskoristiti za postizanje globalne prodaje.
 
 
 **Shout outs** - hoćete nešto da kažete, podelite, tražite, nudite.. 15 sekundi je vaše - iskoristite ih!
@@ -81,7 +78,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-{:/comment}
+
 
 
 <%= render '/prijave/_prijava_tehdorucak.html' %>
