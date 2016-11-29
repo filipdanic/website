@@ -8,7 +8,7 @@ event: 2016-12-07
 event_start: '8:00'
 event_end: '9:30'
 event_venue: parobrod
-event_meetup:
+event_meetup: 235825448
 view_map: true
 partner:
   - kiflice
