@@ -62,8 +62,8 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 [vHike](http://vhike.co/) | [Andor Luhović](https://rs.linkedin.com/in/luhovic)
 : Mobilna aplikacija koja brine o bezbednosti planinara i hajkera kada su u prirodi. Ovo je jedina aplikacija koja nagrađuje korisnike kada postignu uspehe kao što je osvajanje vrha ili pronalaženje udaljenog vodopada, jezera i slično.  
 
-[Green Shield Workshop](http://gsworkshop.com/) | Nenad Milić
-: Kako postati kovač i to umeće iskoristiti za postizanje globalne prodaje.
+[Green Shield Workshop](http://gsworkshop.com/) | Nenad Milić i Vuk Armački
+: Kako iskoristiti srednjevekovne veštine okloparstva i oružarstva za izradu modernih stvari, i postizanje globalne prodaje. 
 
 [Cactomain](https://cactomain.co/) | [Đorđe Vanjek](http://djordjevanjek.com/)
 : Domen registar sa fokusom na fenomenalno korisničko iskustvo
