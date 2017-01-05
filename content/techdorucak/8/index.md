@@ -1,14 +1,14 @@
 ---
-title: Tehnološki Doručak #8
-subtitle: Čavrljanje o tehnološkim poduhvatima uz kafu i kroasane
+title: Tehnološki Doručak 8
+subtitle: GooShop | vHike | Green Shield Workshop | Cactomain
 title_img: title.png
 img: /images/plavo.jpg
 kind: tekfast
-event: 
-event_start: 
-event_end: 
-event_venue: 
-event_meetup: 
+event: 2016-12-07
+event_start: '8:00'
+event_end: '9:30'
+event_venue: parobrod
+event_meetup: 235825448
 view_map: true
 partner:
   - kiflice
@@ -23,11 +23,7 @@ jutarnje kafe. Četiri predavanja od 5 minuta, 2 minuta za pitanja uz networking
 dopunjen kiflicama je sjajan način da se započne dan.
 {: .focus}
 
-{::comment}
-
 <%= render '/_eventbox.html' %>
-
-{:/comment}
 
 Ideja je da se u neformalnoj atmosferi na brz način predstave ideje i projekti sa ciljem
 prikupljanja komentara, nalaženja istomišljenjika, razmene znanja iz
@@ -45,7 +41,7 @@ softver ili hardver. Bilo da ste preduzetnik, dizajner, programer ili slične
 delatnosti dobrodošli ste da predstavite svoje ideje.
 
 
-{::comment}
+
 
 ## Agenda
 
@@ -84,7 +80,7 @@ Uz kofeinsku dopunu ako zatreba ;)
 
 </div>
 
-{:/comment}
+
 
 
 <%= render '/prijave/_prijava_tehdorucak.html' %>
