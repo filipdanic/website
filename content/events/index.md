@@ -42,4 +42,6 @@ i iskustava.
 ## Konferencije
 {: .stuff}
 
-<a href="https://voxxeddays.com/belgrade15">Voxxed Belgrade 2015</a>
+<a href="https://voxxeddays.com/belgrade16" alt="Voxxed Days Belgrade 2016">Voxxed Belgrade 2016</a>
+
+<a href="https://voxxeddays.com/belgrade15" alt="Voxxed Days Belgrade 2015">Voxxed Belgrade 2015</a>
