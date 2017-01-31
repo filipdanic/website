@@ -1,7 +1,7 @@
 ---
 title: Tehnološki Doručak 8
 subtitle: GooShop | vHike | Green Shield Workshop | Cactomain
-title_img: title.png
+title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
 event: 2016-12-07
@@ -60,10 +60,10 @@ delatnosti dobrodošli ste da predstavite svoje ideje.
 : Aplikacija koja pruža priliku svakome da bude stvaralac sadržaja za vodeće brendove i pri tome zaradi.
 
 [vHike](http://vhike.co/) | [Andor Luhović](https://rs.linkedin.com/in/luhovic)
-: Mobilna aplikacija koja brine o bezbednosti planinara i hajkera kada su u prirodi. Ovo je jedina aplikacija koja nagrađuje korisnike kada postignu uspehe kao što je osvajanje vrha ili pronalaženje udaljenog vodopada, jezera i slično.  
+: Mobilna aplikacija koja brine o bezbednosti planinara i hajkera kada su u prirodi. Ovo je jedina aplikacija koja nagrađuje korisnike kada postignu uspehe kao što je osvajanje vrha ili pronalaženje udaljenog vodopada, jezera i slično.
 
 [Green Shield Workshop](http://gsworkshop.com/) | Nenad Milić i Vuk Armački
-: Kako iskoristiti srednjevekovne veštine okloparstva i oružarstva za izradu modernih stvari, i postizanje globalne prodaje. 
+: Kako iskoristiti srednjevekovne veštine okloparstva i oružarstva za izradu modernih stvari, i postizanje globalne prodaje.
 
 [Cactomain](https://cactomain.co/) | [Đorđe Vanjek](http://djordjevanjek.com/)
 : Domen registar sa fokusom na fenomenalno korisničko iskustvo

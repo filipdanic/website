@@ -1,7 +1,7 @@
 ---
 title: Tehnološki Doručak 9
 subtitle: Betonica | Smaz | INO Agencija | Handsome Bags
-title_img: title.png
+title_img: ../title.png
 img: /images/plavo.jpg
 kind: tekfast
 event: 2017-02-01
